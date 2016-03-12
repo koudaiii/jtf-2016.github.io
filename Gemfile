@@ -16,7 +16,7 @@ gem 'middleman-livereload'
 gem 'middleman-compass', '>= 4.0.0'
 
 # Deploy to GitHub Page
-gem 'middleman-deploy', '~> 1.0'
+gem 'middleman-deploy', github: 'middleman-contrib/middleman-deploy', branch: 'master'
 
 # Deploy task
 gem 'rake'
