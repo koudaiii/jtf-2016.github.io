@@ -17,3 +17,6 @@ gem 'middleman-compass', '>= 4.0.0'
 
 # Deploy to GitHub Page
 gem 'middleman-deploy', '~> 1.0'
+
+# Deploy task
+gem 'rake'
