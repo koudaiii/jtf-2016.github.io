@@ -6,10 +6,11 @@ July Tech Fest 2016
 ## Usage
 
 ```bash
- $ git clone https://github.com/jtf-2016/jtf-2016.github.io.git
- $ cd jtf-2016.github.io
- $ bundle install
- $ bundle exec middleman
+$ git clone https://github.com/jtf-2016/jtf-2016.github.io.git
+$ cd jtf-2016.github.io
+$ git checkout develop
+$ bundle install
+$ bundle exec middleman
 ```
 
 ## Contributions
