@@ -18,17 +18,23 @@ $ bundle exec middleman
 * Please Fork it!
 
 ```bash
- $ git clone git@github.com:<account_name>/jtf-2016.github.io.git
- $ cd jtf-2016.github.io
- $ git checkout -b [your_branch_name]
- # Add Commit and Push
+$ git clone git@github.com:<your_name>/jtf-2016.github.io.git
+$ cd jtf-2016.github.io
+$ git checkout develop
+$ bundle install
+$ git checkout -b [your_branch_name]
+# Add Commit and Push
 ```
 
-* Pull Request
+* Please Pull Request!
+
+e.g. **into** `jtf-2016:develop` **from** `your_name:your_branch_name`
+
+![](doc/images/PullRequest.jpg)
 
 ## Manual Deploy
 
 ```bash
- $ export GH_TOKEN=''
- $ bundle exec rake deploy  # Build and publish to Github Pages
+$ export GH_TOKEN=''
+$ bundle exec rake deploy  # Build and publish to Github Pages
 ```
