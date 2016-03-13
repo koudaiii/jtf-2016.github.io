@@ -28,7 +28,7 @@ $ git checkout -b [your_branch_name]
 
 * Please Pull Request!
 
-e.g. **into** `jtf-2016:develop` **from** `koudaiii:master`
+e.g. **into** `jtf-2016:develop` **from** `koudaiii:koudaiii/badge`
 
 ![](doc/images/PullRequest.jpg)
 
