@@ -1,7 +1,7 @@
 # 2016.techfesta.jp
 July Tech Fest 2016
 
-[![Build Status](https://travis-ci.org/jtf-2016/jtf-2016.github.io.svg?branch=master)](https://travis-ci.org/jtf-2016/jtf-2016.github.io)
+[![Build Status](https://travis-ci.org/jtf-2016/jtf-2016.github.io.svg?branch=develop)](https://travis-ci.org/jtf-2016/jtf-2016.github.io)
 
 ## Usage
 
