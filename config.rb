@@ -48,5 +48,5 @@ end
 ###
 activate :deploy do |deploy|
   deploy.deploy_method = :git
-  deply.remote         = "https://#{ENV[GH_TOKEN]}@github.com/jtf-2016/jtf-2016.github.io.git"
+  deploy.remote         = "https://#{ENV[GH_TOKEN]}@github.com/jtf-2016/jtf-2016.github.io.git"
 end
