@@ -1,0 +1,5 @@
+env:
+  global:
+  - secure: $GH_TOKEN
+after_success:
+- '[ "$TRAVIS_BRANCH" == "master" ] && [ $GH_TOKEN ] && bundle exec rake deploy'
