@@ -18,5 +18,8 @@ gem 'middleman-compass', '>= 4.0.0'
 # Deploy to GitHub Page
 gem 'middleman-deploy', github: 'middleman-contrib/middleman-deploy', branch: 'master'
 
+# middleman blog
+gem "middleman-blog"
+
 # Deploy task
 gem 'rake'
