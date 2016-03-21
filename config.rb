@@ -65,6 +65,15 @@ page "/feed.xml", layout: false
 #   activate :livereload
 # end
 
+#
+# Google Analytics
+#
+
+activate :google_analytics do |ga|
+  ga.tracking_id = 'UA-41495968-1'
+end
+
+
 # Build-specific configuration
 configure :build do
   # Minify CSS on build
