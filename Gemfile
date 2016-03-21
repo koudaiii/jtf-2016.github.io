@@ -29,3 +29,7 @@ gem 'redcarpet', '~> 3.3', '>= 3.3.3'
 
 # For feed.xml.builder
 gem 'builder', '~> 3.0'
+
+# For google analytics
+gem 'middleman-google-analytics', '~> 2.1'
+
