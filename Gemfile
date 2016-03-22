@@ -33,3 +33,5 @@ gem 'builder', '~> 3.0'
 # For google analytics
 gem 'middleman-google-analytics', '~> 2.1'
 
+gem 'execjs'
+gem 'therubyracer'
