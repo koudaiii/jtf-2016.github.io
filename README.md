@@ -3,6 +3,10 @@ July Tech Fest 2016
 
 [![Build Status](https://travis-ci.org/jtf-2016/jtf-2016.github.io.svg?branch=develop)](https://travis-ci.org/jtf-2016/jtf-2016.github.io)
 
+## Japanese Document
+
+* [日本語ドキュメント](doc/README.md)
+
 ## Usage
 
 ```bash
