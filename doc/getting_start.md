@@ -8,34 +8,44 @@
 middleman は公式の日本語サイトが充実していて、基本的に公式を見たら出来そうな感じです。
 ちょっと困っても、 github に上がっている source を参考にできます。
 
-
 ### 開発環境の作り方(Mac)
 
-middleman は、 ruby です。
+* コンパイルツール
 
-* irb(Interactive Ruby)を使用するためのパッケージ
+```
+$ xcode-select --install
+```
+
+* Homebrew
+
+Middleware を含めたパッケージを管理
+
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+* irb(Interactive Ruby)
 
 ```bash
 $ brew install readline
 ```
 
-*  httpsを使用するためのパッケージ
+* https
 
 ```bash
 $ brew install openssl
 ```
 
-* ruby-build, rbenvのインストール
+* ruby-build, rbenv
 
-Rubyを使用する上で必須となっているバージョン切り替えツール「rbenv」をインストール
+Ruby バージョン切り替えツール
 
 ```bash
 $ brew install ruby-build
 $ brew install rbenv
 ```
 
-
-* path設定
+* Set up path
 
 ```bash
 $ echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> .bash_profile
@@ -43,15 +53,15 @@ $ echo 'eval "$(rbenv init -)"' >> .bash_profile
 $ source .bash_profile
 ```
 
-* rubyのインストール
+* Ruby
 
-rbenvを使ってRubyをインストールします。
+rbenv を使って Ruby をインストールします。
 
 ```bash
 $ rbenv install 2.3.0
 ```
 
-* 標準で使うrubyのバージョンを切り替える
+* 標準で使う ruby のバージョンを切り替える
 
 ```bash
 $ rbenv global 2.3.0
@@ -64,18 +74,15 @@ $ rbenv versions
 $ ruby -v
 ```
 
-* Bundlerインストール
+* Bundler
 
 [Bundlerを使ったGemパッケージの管理](http://www.rubylife.jp/rails/ini/index2.html)
 
-Rubyで使われるライブラリやアプリケーションはGemと呼ばれる形式のパッケージにすることができます。Bundlerはアプリケーションに必要となるGemパッケージの種類やバージョンを管理し、複数のPCで必要なGemパッケージをインストールする仕組みを提供してくれます。
-
+Ruby で使われるライブラリやアプリケーションは Gem と呼ばれる形式のパッケージにすることができます。 Bundler はアプリケーションに必要となる Gem パッケージの種類やバージョンを管理し、複数のPCで必要なGemパッケージをインストールする仕組みを提供してくれます。
 
 ```bash
 $ gem install bundler
 ```
-
-
 
 ## 実際に動かす
 
