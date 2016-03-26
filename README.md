@@ -14,7 +14,7 @@ $ git clone https://github.com/jtf-2016/jtf-2016.github.io.git
 $ cd jtf-2016.github.io
 $ git checkout develop
 $ bundle install
-$ bundle exec middleman
+$ script/server
 ```
 
 ## Contributions
