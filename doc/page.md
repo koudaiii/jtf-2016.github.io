@@ -1,12 +1,16 @@
 ## ページの編集
 
+基本的に develop branch で code を書いていきます。例えば、Footer を追加させたい場合は、以下のように `source/layouts/_footer.html.haml` を編集します。
+また、 helpermethod を追加させたい場合は、以下の `config.rb` で method を定義します。
+
 * https://middlemanapp.com/jp/basics/directory-structure/
 
 * cf. https://github.com/jtf-2016/jtf-2016.github.io/pull/24
 
-* footer page に copyright を追加させる
+* footer page に copyright を追加させたい場合
 
-source/layouts/_footer.html/haml
+
+source/layouts/_footer.html.haml
 
 ```haml
 +%footer{role: "contentinfo"}
@@ -17,7 +21,7 @@ source/layouts/_footer.html/haml
  +  = partial 'layouts/sns' # 追加でpage の追加も出来る
 ```
 
-* helpermethod を追加させる
+* helpermethod を追加させたい場合
 
 config.rb
 
@@ -34,4 +38,5 @@ config.rb
  +  end
  +end
  ```
-このような形
+
+* script/server で確認出来ます
