@@ -36,3 +36,7 @@ gem 'middleman-google-analytics', '~> 2.1'
 gem 'execjs'
 gem 'therubyracer'
 gem 'less'
+
+# Use font awesome
+gem 'font-awesome-middleman'
+
