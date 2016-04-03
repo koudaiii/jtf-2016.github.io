@@ -1,7 +1,7 @@
 # 2016.techfesta.jp
 July Tech Fest 2016
 
-[![Build Status](https://travis-ci.org/jtf-2016/jtf-2016.github.io.svg?branch=master)](https://travis-ci.org/jtf-2016/jtf-2016.github.io)
+[![Build Status](https://travis-ci.org/jtf-2016/jtf-2016.github.io.svg?branch=develop)](https://travis-ci.org/jtf-2016/jtf-2016.github.io)
 
 ## Japanese Document
 
@@ -32,7 +32,7 @@ $ git checkout -b [your_branch_name]
 
 * Please Pull Request!
 
-e.g. **into** `jtf-2016:develop` **from** `koudaiii:master`
+e.g. **into** `jtf-2016:develop` **from** `koudaiii:koudaiii/badge`
 
 ![](doc/images/PullRequest.jpg)
 
