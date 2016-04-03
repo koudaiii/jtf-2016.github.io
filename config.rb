@@ -23,6 +23,10 @@ configure :development do
   activate :livereload
 end
 
+#  font-awesome
+
+set :fonts_dir,  "font-awesome"
+
 ###
 # Helpers
 ###
