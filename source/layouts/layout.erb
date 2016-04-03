@@ -1,20 +1,51 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html>
+<html lang="jp">
   <head>
-    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
-    <meta charset="utf-8"/>
-    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport"/>
-    <!-- Use title if it's in the page YAML frontmatter -->
-    <title>
-      <%= current_page.data.title || "Middleman" %>
-    </title>
-    <link href="//fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet" type="text/css"></link>
-    <%= stylesheet_link_tag :site %>
-    <%= javascript_include_tag :all %>
+
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="author" content="">
+      <meta name="description" content="">
+      <meta name="Keywords" content="" />
+
+      <title>JTF</title>
+
+      <!-- Bootstrap Core CSS -->
+      <link href="stylesheets/bootstrap/bootstrap.min.css" rel="stylesheet">
+
+      <!-- Custom Fonts -->
+      <link href="stylesheets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+      <link href="stylesheets/jtf.css" rel="stylesheet">
+
+      <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+
   </head>
-  <body class="<%= -page_classes %>">
+  <body>
     <%= partial 'layouts/header' %>
     <%= yield %>
     <%= partial 'layouts/footer' %>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="javascripts/js/bootstrap.min.js"></script>
+
+  <script type="text/javascript">
+        $(function(){
+          $('a img').hover(function(){
+            $(this).attr('src', $(this).attr('src').replace('_off', '_on'));
+              }, function(){
+                 if (!$(this).hasClass('currentPage')) {
+                 $(this).attr('src', $(this).attr('src').replace('_on', '_off'));
+            }
+          });
+        });
+    </script>
   </body>
 </html>
