@@ -26,6 +26,7 @@ end
 #  font-awesome
 
 set :fonts_dir,  "stylesheets/font-awesome"
+set :less
 
 ###
 # Helpers
@@ -98,6 +99,8 @@ configure :build do
 
   # Minify Javascript on build
   # activate :minify_javascript
+  
+  ignore '/**/less/*'
 end
 
 ###
