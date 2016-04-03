@@ -25,7 +25,7 @@ end
 
 #  font-awesome
 
-set :fonts_dir,  "font-awesome"
+set :fonts_dir,  "stylesheets/font-awesome"
 
 ###
 # Helpers
