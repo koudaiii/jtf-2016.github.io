@@ -20,7 +20,7 @@ li.clearFloat {
 }
 
 
-#img_headerBG {
+.img_headerBG {
 	background-image: url(../images/img_header.png);
 	width:100%;
 	min-width:1365px;
@@ -29,33 +29,33 @@ li.clearFloat {
 	z-index: 999;
 }
 
-#img_header {
+.img_header {
 	position: relative;
     margin: 0 auto;
     text-align:left;
 	width: 1365px;
 	height: 41px;
 }
-#img_header .logo {
+.img_header .logo {
   position: absolute;
   left: 90px;
 }
-#img_header .snss {
+.img_header .snss {
   position: absolute;
   right: 100px; margin-top:8px; color:#FFF;
 }
-#img_header .icons { font-size:160%; margin-left:15px;}
-#img_header a {  color:#FFF;}
+.img_header .icons { font-size:160%; margin-left:15px;}
+.img_header a {  color:#FFF;}
 
 
-#main {
+.main {
     margin: 0 auto;
     text-align:left;
 	width: 1365px;
 	padding: 41px 0 0 0;
 }
 
-#img_top {
+.img_top {
 	position: relative;
 	margin-left: 0px;
 	margin-top: 0px;
@@ -67,7 +67,7 @@ li.clearFloat {
 	background-image: url(../images/img_top.png);
 }
 
-#img_top .order {
+.img_top .order {
   position: absolute;
   left: 540px;
   top: 360px;
@@ -75,7 +75,7 @@ li.clearFloat {
 
 
 
-#img_left {
+.img_left {
 	position: relative;
 	margin-left: 0px;
 	margin-top: 0px;
@@ -86,7 +86,7 @@ li.clearFloat {
 	width: 636px;
 	background-image: url(../images/img_left.png);
 }
-#img_center {
+.img_center {
 	position: relative;
 	margin-left: 0px;
 	margin-top: 0px;
@@ -98,7 +98,7 @@ li.clearFloat {
 	background-image: url(../images/img_center.png);
 	padding:20px 40px 10px 40px;
 }
-#img_right {
+.img_right {
 	position: relative;
 	margin-left: 0px;
 	margin-top: 0px;
@@ -111,13 +111,13 @@ li.clearFloat {
 }
 
 
-#img_footerBG {
+.img_footerBG {
 	background-image: url(../images/img_footerBG.png);
 	width:100%;
 	min-width:1365px;
 	height: 1729px;
 }
-#img_footer {
+.img_footer {
 	position: relative;
     margin: 0 auto;
     text-align:left;
@@ -126,15 +126,15 @@ li.clearFloat {
 	background-image: url(../images/img_footer.png);
 }
 
-#img_footer .order {
+.img_footer .order {
   position: absolute;
   left: 900px;  top: 125px;
 }
-#img_footer .logo {
+.img_footer .logo {
   position: absolute;
   left: 830px;  top: 197px;
 }
-#img_footer .cp {
+.img_footer .cp {
   position: absolute;
   left: 1050px;  top: 210px;
 }
