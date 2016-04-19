@@ -1,5 +1,6 @@
 @charset "utf-8";
-
+@import 'colors';
+@import "bootstrap/bootstrap.min.css";
 
 body{
 	margin:0px;
@@ -19,33 +20,27 @@ li.clearFloat {
 	clear: both;
 }
 
-
-.img_headerBG {
-	background-image: url(../images/img_header.png);
-	width:100%;
-	min-width:1365px;
-	height: 41px;
-	position: fixed;
-	z-index: 999;
+.navbar-default {
+	background-color: $FrenchWine;
 }
 
-.img_header {
-	position: relative;
-    margin: 0 auto;
-    text-align:left;
-	width: 1365px;
-	height: 41px;
+.navbar-brand {
+	padding: 7px;
 }
-.img_header .logo {
-  position: absolute;
-  left: 90px;
+
+.navbar-default .navbar-nav>li>a {
+	color: $White;
+  &:visited {
+    color: $White;
+  }
+
+  &:hover {
+		color: $White;
+  }
 }
-.img_header .snss {
-  position: absolute;
-  right: 100px; margin-top:8px; color:#FFF;
-}
-.img_header .icons { font-size:160%; margin-left:15px;}
-.img_header a {  color:#FFF;}
+
+.icons { font-size:160%; margin-left:15px;}
+
 
 
 .main {
