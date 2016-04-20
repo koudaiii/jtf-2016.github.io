@@ -31,6 +31,9 @@ li.clearFloat {
 	padding: 7px;
 }
 
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	background-color: transparent;
+}
 .navbar-default .navbar-nav>li>a {
 	color: $White;
   &:visited {
