@@ -20,6 +20,9 @@ li.clearFloat {
 	clear: both;
 }
 
+.navbar {
+	margin-bottom: 0px;
+}
 .navbar-default {
 	background-color: $FrenchWine;
 }
@@ -28,6 +31,9 @@ li.clearFloat {
 	padding: 7px;
 }
 
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	background-color: transparent;
+}
 .navbar-default .navbar-nav>li>a {
 	color: $White;
   &:visited {
@@ -47,7 +53,6 @@ li.clearFloat {
     margin: 0 auto;
     text-align:left;
 	width: 1365px;
-	padding: 41px 0 0 0;
 }
 
 .img_top {
