@@ -115,27 +115,14 @@ li.clearFloat {
 	background-image: url(../images/img_right.png);
 }
 
-.img_footerBG {
-	background-color: $FrenchWine;
-}
-.img_footer {
-	position: relative;
-    margin: 0 auto;
-    text-align:left;
-	height: 1729px;
-	width: 1365px;
-	background-image: url(../images/img_footer.png);
-}
 
-.img_footer .order {
-  position: absolute;
-  left: 900px;  top: 125px;
-}
-.img_footer .logo {
-  position: absolute;
-  left: 830px;  top: 197px;
-}
-.img_footer .cp {
-  position: absolute;
-  left: 1050px;  top: 210px;
+.bs-docs-footer {
+	background-color: $FrenchWine;
+	@media screen and (min-width:1024px) {
+    /*　画面サイズが1024pxからはここを読み込む　*/
+		background-image: url(../images/img_footer.png);
+		background-repeat: repeat;
+		// background-size: cover;
+		height: 400px;
+	}
 }
