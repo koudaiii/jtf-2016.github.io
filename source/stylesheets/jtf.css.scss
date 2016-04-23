@@ -49,22 +49,14 @@ li.clearFloat {
 
 
 
-.main {
-    margin: 0 auto;
-    text-align:left;
-	width: 1365px;
+.container {
+  margin: 0 auto;
+  text-align:left;
 }
 
 .img_top {
-	position: relative;
-	margin-left: 0px;
-	margin-top: 0px;
-	display: inline;
-	float: left;
 	height: 1089px;
-	margin-bottom: 0;
-	width: 1365px;
-	background-image: url(../images/img_top.png);
+	background-image: url(../images/promotion.png);
 }
 
 .img_top .order {
