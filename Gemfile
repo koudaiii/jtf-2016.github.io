@@ -21,6 +21,10 @@ gem 'middleman-deploy', github: 'middleman-contrib/middleman-deploy', branch: 'm
 # middleman blog
 gem 'middleman-blog'
 
+
+# middleman favicon-maker
+gem "middleman-favicon-maker", "4.0.3"
+
 # Deploy task
 gem 'rake'
 
