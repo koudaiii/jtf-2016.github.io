@@ -44,8 +44,35 @@ body{
 }
 
 .img_top {
-	height: 1089px;
+	height: auto;
 	background-image: url(../images/promotion.png);
+	@media screen and (min-width:768px) {
+	  // 画面サイズが768pxからはここを読み込む
+		background-size: cover;
+		height: 1089px;
+		p {
+			text-align: center;
+			padding-top: 310px;
+		}
+	}
+	@media screen and (max-width:768px) {
+	  // 画面サイズが768px以下はここを読み込む
+		background-size: cover;
+		height: 519px;
+		p {
+			text-align: center;
+			padding-top: 180px;
+		}
+	}
+	@media screen and (max-width:480px) {
+		// 画面サイズが768px以下はここを読み込む
+		background-size: cover;
+		height: 338px;
+		p {
+			text-align: center;
+			padding-top: 100px;
+		}
+	}
 	img {
 		padding-bottom: 2px;
 	}
