@@ -65,12 +65,11 @@ body{
 	background-image: url(../images/img_footer.png);
 	background-repeat: repeat;
 	@media screen and (min-width:768px) {
-	  /*　画面サイズが1024pxからはここを読み込む　*/
-		// background-size: cover;
+	  // 画面サイズが768pxからはここを読み込む
 		height: 400px;
 	}
 	@media screen and (max-width:768px) {
-	  /*　画面サイズが1024pxからはここを読み込む　*/
+	  // 画面サイズが768px以下はここを読み込む
 		background-size: cover;
 		height: 150px;
 	}
