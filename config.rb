@@ -105,7 +105,7 @@ configure :build do
     f.template_dir  = File.join(root, 'source')
     f.output_dir    = File.join(root, 'build')
     f.icons = {
-      "images/promotion.png" => [
+      "images/favicon.png" => [
         { icon: "apple-touch-icon-144x144-precomposed.png" },             # Same as apple-touch-icon-57x57.png, for retina iPad with iOS6 or prior.
         { icon: "apple-touch-icon-120x120-precomposed.png" },             # Same as apple-touch-icon-57x57.png, for retina iPhone with iOS7.
         { icon: "apple-touch-icon-114x114-precomposed.png" },             # Same as apple-touch-icon-57x57.png, for retina iPhone with iOS6 or prior.
@@ -125,7 +125,7 @@ configure :build do
         { icon: "mstile-310x310.png", size: "310x310" },
         { icon: "mstile-310x150.png", size: "310x150" }
       ],
-      "images/promotion.png" => [
+      "images/favicon.png" => [
         { icon: "favicon.png", size: "16x16" },
         { icon: "favicon.ico", size: "64x64,32x32,24x24,16x16" },
       ]
