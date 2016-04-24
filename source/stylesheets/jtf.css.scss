@@ -46,6 +46,9 @@ body{
 .img_top {
 	height: 1089px;
 	background-image: url(../images/promotion.png);
+	img {
+		padding-bottom: 2px;
+	}
 }
 
 .img_top .order {
