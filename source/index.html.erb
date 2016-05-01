@@ -53,10 +53,8 @@ title: Welcome to JTF2016
 									<img src="assets/img/about.png" alt="about" class="sectioncapt-img">
 								</div>
 								<div class="col-md-7 col-sm-7 col-xs-12">
-									<h1>開催主催</h1>
-									<p>
-										テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-									</p>
+									<h1><%= data.index.about.title %></h1>
+									<p><%= data.index.about.detail %></p>
 									<div class="jtf-social">
 										<div class="row">
 											<div class="col-md-6 col-sm-6 col-xs-6">
@@ -86,10 +84,8 @@ title: Welcome to JTF2016
 									<img src="assets/img/thema.png" alt="thema" class="sectioncapt-img">
 								</div>
 								<div class="col-md-7 col-sm-7 col-xs-12">
-									<h1>Jult&nbsp;Tech&nbsp;Festaのテーマ</h1>
-									<p>
-										テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-									</p>
+									<h1><%= data.index.thema.title %></h1>
+									<p><%= data.index.thema.detail %></p>
 								</div>
 							</div>
 						</div>
@@ -146,40 +142,63 @@ title: Welcome to JTF2016
 								<div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12 prise-title wood">
 									<img src="assets/img/wood.png" alt="">
 								</div>
+								<% data.index.prise.wood.each_slice(3) do |prise| %>
 								<div class="col-md-12">
+									<% prise.each do |p| %>
 									<div class="col-md-4 col-sm-4 col-xs-12">
-										<img src="assets/img/sponsor/sponsor1.png" alt="sponsor1" class="sponsor-img">
+										<img src="assets/img/sponsor/<%= p.imgname %>" alt="<%= p.sponsorname %>" class="sponsor-img">
 									</div>
-									<div class="col-md-4 col-sm-4 col-xs-12">
-										<img src="assets/img/sponsor/sponsor2.png" alt="sponsor2" class="sponsor-img">
-									</div>
-									<div class="col-md-4 col-sm-4 col-xs-12">
-										<img src="assets/img/sponsor/sponsor3.png" alt="sponsor3" class="sponsor-img">
-									</div>
+									<% end %>
 								</div>
+								<% end %>
 								<div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12 prise-title platinum">
 									<img src="assets/img/platinum.png" alt="">
 								</div>
+								<% data.index.prise.platinum.each_slice(3) do |prise| %>
 								<div class="col-md-12">
+									<% prise.each do |p| %>
 									<div class="col-md-4 col-sm-4 col-xs-12">
-										<img src="assets/img/sponsor/sponsor1.png" alt="sponsor1" class="sponsor-img">
+										<img src="assets/img/sponsor/<%= p.imgname %>" alt="<%= p.sponsorname %>" class="sponsor-img">
 									</div>
-									<div class="col-md-4 col-sm-4 col-xs-12">
-										<img src="assets/img/sponsor/sponsor2.png" alt="sponsor2" class="sponsor-img">
-									</div>
-									<div class="col-md-4 col-sm-4 col-xs-12">
-										<img src="assets/img/sponsor/sponsor3.png" alt="sponsor3" class="sponsor-img">
-									</div>
+									<% end %>
 								</div>
+								<% end %>
 								<div class="col-md-8 col-md-offset-2  col-sm-12 col-xs-12 prise-title gold">
 									<img src="assets/img/gold.png" alt="">
 								</div>
+								<% data.index.prise.gold.each_slice(3) do |prise| %>
+								<div class="col-md-12">
+									<% prise.each do |p| %>
+									<div class="col-md-4 col-sm-4 col-xs-12">
+										<img src="assets/img/sponsor/<%= p.imgname %>" alt="<%= p.sponsorname %>" class="sponsor-img">
+									</div>
+									<% end %>
+								</div>
+								<% end %>
 								<div class="col-md-8 col-md-offset-2  col-sm-12 col-xs-12 prise-title silver">
 									<img src="assets/img/silver.png" alt="">
 								</div>
+								<% data.index.prise.silver.each_slice(3) do |prise| %>
+								<div class="col-md-12">
+									<% prise.each do |p| %>
+									<div class="col-md-4 col-sm-4 col-xs-12">
+										<img src="assets/img/sponsor/<%= p.imgname %>" alt="<%= p.sponsorname %>" class="sponsor-img">
+									</div>
+									<% end %>
+								</div>
+								<% end %>
 								<div class="col-md-8 col-md-offset-2  col-sm-12 col-xs-12 prise-title bronze">
 									<img src="assets/img/bronze.png" alt="">
 								</div>
+								<% data.index.prise.bronze.each_slice(3) do |prise| %>
+								<div class="col-md-12">
+									<% prise.each do |p| %>
+									<div class="col-md-4 col-sm-4 col-xs-12">
+										<img src="assets/img/sponsor/<%= p.imgname %>" alt="<%= p.sponsorname %>" class="sponsor-img">
+									</div>
+									<% end %>
+								</div>
+								<% end %>
 							</div>
 						</div>
 					</div>
