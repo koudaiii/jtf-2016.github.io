@@ -12,24 +12,24 @@ prise:
   silver:
   - sponsorname: ティントリジャパン合同会社
     imgname: tintri.png
-    url:
+    url: http://tintri.co.jp
   - sponsorname: 株式会社Blueship
     imgname: blueship.png
-    url:
+    url: http://www.blueship.co.jp
   platinum:
   - sponsorname: TIS株式会社
     imgname: tis.png
-    url:
+    url: https://www.tis.co.jp/
   gold:
   - sponsorname: 株式会社はてな
     imgname: hatena-logotype.svg
-    url:
+    url: http://hatenacorp.jp/
   - sponsorname: NHN テコラス株式会社
     imgname: nhn-techorus.png
-    url:
+    url: https://nhn-techorus.com/
   - sponsorname: 株式会社ハートビーツ
     imgname: hb.svg
-    url:
+    url: http://heartbeats.jp/
   - sponsorname: ニュータニックス　ジャパン　合同会社
     imgname: nutanix.png
-    url:
+    url: http://www.nutanix.jp
