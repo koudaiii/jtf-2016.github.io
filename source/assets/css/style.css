@@ -139,7 +139,7 @@ a.navbar-brand:hover{
   background: #260410;
 }
 .section-cell{
-  height:555px;
+  height:540px;
   color:#ffffff;
   border-left: 1px solid #ffffff;
   border-right: 1px solid #ffffff;
@@ -163,8 +163,11 @@ a.navbar-brand:hover{
 .inner-thema{
   background: url('../img/back2.png') no-repeat right;
 }
+.inner-keynote{
+  background: url('../img/back1.png') no-repeat left;
+}
 .inner-access{
-  background: url('../img/back3.png') no-repeat left;
+  background: url('../img/back3.png') no-repeat right;
 }
 .section-cell-inner h1{
   font-size: 20px;
@@ -354,8 +357,20 @@ img.userprofileimg{
 .topTicketBtnforMobile{
   display: none;
 }
+.keynote-thumb{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  box-shadow:0px 0px 3px 1px #3b3b39;
+  -moz-box-shadow:0px 0px 3px 1px #3b3b39;
+  -webkit-box-shadow:0px 0px 3px 1px #3b3b39;
+  margin-bottom: 10px;
+}
+.keytalker{
+  margin: 10px 0 20px 0;
+}
 
-@media (max-width: 970px) {
+@media (max-width: 1200px) {
   .section-cell{
     height: 100%;
   }
@@ -393,6 +408,9 @@ img.userprofileimg{
   .inner-thema{
     background-size:cover;
   }
+  .inner-keynote{
+    background-size:cover;
+  }
   .inner-access{
     background-size:cover;
   }
@@ -400,5 +418,9 @@ img.userprofileimg{
 @media (max-width: 750px) {
   .mobile_show{
     display: inline;
+  }
+  .keynote-thumb{
+    width: 100px;
+    height: 100px;
   }
 }
