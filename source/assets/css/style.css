@@ -139,10 +139,14 @@ a.navbar-brand:hover{
   background: #260410;
 }
 .section-cell{
-  height:540px;
+  height:100%;
   color:#ffffff;
   border-left: 1px solid #ffffff;
   border-right: 1px solid #ffffff;
+  padding-bottom: 40px;
+}
+.aboid-padding-b{
+  padding-bottom: 0px;
 }
 .section-cell-free{
   background: #ffffff;
