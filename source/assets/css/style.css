@@ -245,6 +245,9 @@ a.navbar-brand:hover{
 .englishcafe{
   background: url("../img/english/english.png") no-repeat;
 }
+.speaker{
+  background: url("../img/speaker/speaker.png") no-repeat;
+}
 .sponsor{
   background: url("../img/sponsor/sponsorback.png") no-repeat;
 }
