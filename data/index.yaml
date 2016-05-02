@@ -17,14 +17,6 @@ keynote:
 
 prise:
   wood:
-  bronze:
-  silver:
-  - sponsorname: ティントリジャパン合同会社
-    imgname: tintri.png
-    url: http://tintri.co.jp
-  - sponsorname: 株式会社Blueship
-    imgname: blueship.png
-    url: http://www.blueship.co.jp
   platinum:
   - sponsorname: TIS株式会社
     imgname: tis.png
@@ -42,3 +34,11 @@ prise:
   - sponsorname: ニュータニックス　ジャパン　合同会社
     imgname: nutanix.png
     url: http://www.nutanix.jp
+  silver:
+  - sponsorname: ティントリジャパン合同会社
+    imgname: tintri.png
+    url: http://tintri.co.jp
+  - sponsorname: 株式会社Blueship
+    imgname: blueship.png
+    url: http://www.blueship.co.jp
+  bronze:
