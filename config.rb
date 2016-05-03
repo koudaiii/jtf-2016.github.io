@@ -58,7 +58,7 @@ helpers do
   end
   def navi_li(text, url)
     class_name = 'active' if url == current_page.url
-    content_tag(:li, link_to(text, url), :class => class_name)
+    content_tag(:li, link_to(text, url))
   end
 end
 
