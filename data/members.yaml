@@ -1,6 +1,15 @@
 title: July Tech Festa 2016 運営チーム一覧
-description: 
+description: July Tech Festaは、下記メンバーによって運営されています。(あいうえお順)
 members:
 - name: 坂部 広大 @koudaiii
-  avatar_url: https://avatars2.githubusercontent.com/u/2929102
+  avatar_url: https://avatars2.githubusercontent.com/u/2929102?s=250
   body: Software Engineer, Developer Infrastructure
+- name: 藤崎　正範
+  avatar_url: https://pbs.twimg.com/profile_images/433560192588853248/PCHpGM2o.png
+  body: 1978年生まれ、福岡県北九州市出身、電気通信大学卒業。2005年4月に株式会社ハートビーツを設立、代表取締役に就任。インフラエンジニアとして各種Webシステムのインフラ運用に携わる。2014年7月に株式会社ウォルティを設立、代表取締役に就任。2013年のJTF立ち上げ時から毎年、JTF運営委員会に参画。主にチケットサイト管理、セッションのアレンジ、議事進行などを担当。トラブルシューティング・チューニングが大好き。趣味は将棋。
+- name: 山口 知子
+  avatar_url: assets/img/members/yamaguchi.jpg
+  body: ある日「みんなの尻叩き（役）をやりなさい」と打ち合わせに呼ばれ、どんな女王様を演じれば良いのかと悶々としている間に毎年運営に関わる事に。JTFでは主に事務局とおやつ係（うまい棒）を担当。普段はIT系ではなく謎の不動産管理会社に勤務。最近の楽しみは建築中のマンションを眺めること。趣味は飲みニュケーション。
+- name: 山崎 泰宏
+  avatar_url: http://www.gravatar.com/avatar/9df9bea57ccabad4aa1ee7d825f2a0b5
+  body: 寿司と鰻を食べていたら、何故かここに参加することになり、プログラムをまとめたり、Tシャツの絵を描いたり、Swiftの無茶振りセッションをやらされたり、Unityの発表もしましたけど、本当はJTFの金庫番を務めております。普段は株式会社あくしゅ(http://axsh.jp)の代表をやっています。経営とか苦手なので、誰か助けてください。
