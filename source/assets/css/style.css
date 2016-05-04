@@ -109,7 +109,9 @@ a.navbar-brand:hover{
 .carouselback-black{
   background: rgba(0,0,0,0.6);
 }
-
+.panel{
+  color:#000;
+}
 
 /*section style*/
 
@@ -163,6 +165,10 @@ a.navbar-brand:hover{
 }
 .inner-about{
   background: url('../img/back1.png') no-repeat left;
+}
+.inner-news{
+  background: url('../img/back1.png') no-repeat left;
+  background-size: cover;
 }
 .inner-thema{
   background: url('../img/back2.png') no-repeat right;
@@ -234,7 +240,9 @@ a.navbar-brand:hover{
 .platinum{
   background: url('../img/platinumline.png') no-repeat center center;
 }
-
+.backsupport{
+  background: url('../img/backsupportline.png') no-repeat center center;
+}
 /* detail page style*/
 .headback{
   background: #770d32;
