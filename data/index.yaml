@@ -9,13 +9,13 @@ thema:
 news:
   title: お知らせ
   contents:
-    - title: CTF 募集
+    - title: CFP 募集
       date: 2016/05/03
-      description: CTFの募集開始しました。5/10 締め切りです!
+      description: CPFの募集開始しました。5/10 締め切りです!
       tag:
-        - CTF
+        - CFP
         - Wanted
-    - title: サイト解説
+    - title: サイト開設
       date: 2016/05/01
       description: JTF2016 サイト開設しました
       tag:
