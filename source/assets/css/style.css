@@ -12,6 +12,12 @@ html,body{
 ul.nav.navbar-nav.jtfnavlist li a{
   color:#ffffff;
 }
+.nav-justified > li > a {
+  color:#ffffff;
+}
+.nav-justified > li > a:hover {
+  color:#000000;
+}
 ul.nav.navbar-nav.jtfnavlist li.active a{
   color:#aa9f57;
   background: url("../img/triangle.png") no-repeat;
