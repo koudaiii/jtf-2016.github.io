@@ -1,6 +1,9 @@
 title: July Tech Festa 2016 運営チーム一覧
 description: July Tech Festaは、下記メンバーによって運営されています。(あいうえお順)
 members:
+- name: 倉持 健史
+  avatar_url: assets/img/members/kuramochi.jpg
+  body: 2015年は一般に参加しました。技術者の高みを目指すイベントとしてはこんな良い物はないと感じていたところ、同僚に誘いいただき今年はすこしばかり運営としても参加させていただきました。1978年東東京生まれ、TIS株式会社でOSSを推進する傍らインフラ技術者育成にも従事。尊敬するエバンジェリストのみなさんをめざして日々精進。趣味は筋トレ、鉄拳、漫画、etc。
 - name: 坂部 広大 @koudaiii
   avatar_url: https://avatars2.githubusercontent.com/u/2929102?s=250
   body: Software Engineer, Developer Infrastructure
