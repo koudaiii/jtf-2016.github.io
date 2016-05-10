@@ -91,9 +91,6 @@
                       <div class="col-md-6 col-sm-6 col-xs-6">
                         <a href="http://jtf2016.peatix.com/" target="_blank"><img src="assets/img/button_off.png" alt="peatix" class="jtf-ticket-img"></a>
                       </div>
-                      <div class="col-md-6 col-sm-6 col-xs-6">
-                        <a href="https://docs.google.com/forms/d/1JBYoTgdgFpcbGNZVwlg66x4udTxiwyOo6JOFJ2y78tg/viewform" target="_blank"><img src="assets/img/button_cfp_off.png" alt="cfp" class="jtf-ticket-img"></a>
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -358,22 +355,6 @@
                   </div>
                   <% unless data.index.prise.silver.nil? %>
                   <% data.index.prise.silver.each_slice(3) do |prise| %>
-                  <div class="col-md-12">
-                    <% prise.each do |p| %>
-                    <div class="col-md-4 col-sm-4 col-xs-12">
-                      <a class="linkwhite" href="<%= p.url %>">
-                        <img src="assets/img/sponsor/<%= p.imgname %>" alt="<%= p.sponsorname %>" class="sponsor-img">
-                      </a>
-                    </div>
-                    <% end %>
-                  </div>
-                  <% end %>
-                  <% end %>
-                  <div class="col-md-8 col-md-offset-2  col-sm-12 col-xs-12 prise-title bronze">
-                    <img src="assets/img/bronze.png" alt="">
-                  </div>
-                  <% unless data.index.prise.bronze.nil? %>
-                  <% data.index.prise.bronze.each_slice(3) do |prise| %>
                   <div class="col-md-12">
                     <% prise.each do |p| %>
                     <div class="col-md-4 col-sm-4 col-xs-12">
