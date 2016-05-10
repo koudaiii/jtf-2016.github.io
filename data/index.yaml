@@ -52,6 +52,9 @@ prise:
   - sponsorname: 株式会社ハートビーツ
     imgname: hb.svg
     url: http://heartbeats.jp/
+  - sponsorname: ウォンテッドリー株式会社
+    imgname: wantedly.png
+    url: http://site.wantedly.com/
   - sponsorname: ニュータニックス　ジャパン　合同会社
     imgname: nutanix.png
     url: http://www.nutanix.jp
