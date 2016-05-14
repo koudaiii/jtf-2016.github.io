@@ -88,6 +88,22 @@
                 </div>
               <% end %>
             <% end %>
+            <div class="col-md-8 col-md-offset-2  col-sm-12 col-xs-12 prise-title mono">
+              <img src="assets/img/mono.png" alt="">
+            </div>
+            <% unless data.index.prise.mono.nil? %>
+              <% data.index.prise.mono.each_slice(3) do |prise| %>
+                <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
+                  <% prise.each do |p| %>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                      <a class="linkwhite" href="<%= p.url %>">
+                        <img src="assets/img/sponsor/<%= p.imgname %>" alt="<%= p.sponsorname %>" class="sponsor-img">
+                      </a>
+                    </div>
+                  <% end %>
+                </div>
+              <% end %>
+            <% end %>
           </div>
         </div>
       </div>
