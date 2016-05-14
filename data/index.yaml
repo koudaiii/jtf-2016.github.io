@@ -73,3 +73,6 @@ prise:
       imgname: nes-global.png
       url: https://www.nes-global.com/
   backsupport:
+    - sponsorname: 日本MSP協会
+      imgname: mspj.svg
+      url: http://mspj.jp/
