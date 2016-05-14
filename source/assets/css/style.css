@@ -240,8 +240,8 @@ a.navbar-brand:hover{
 .silver{
   background: url('../img/silverline.png') no-repeat center center;
 }
-.bronze{
-  background: url('../img/bronzeline.png') no-repeat center center;
+.mono{
+  background: url('../img/monoline.png') no-repeat center center;
 }
 .platinum{
   background: url('../img/platinumline.png') no-repeat center center;
