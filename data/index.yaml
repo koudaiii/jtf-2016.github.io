@@ -68,5 +68,8 @@ prise:
   - sponsorname: 株式会社Blueship
     imgname: blueship.png
     url: http://www.blueship.co.jp
-  bronze:
+  mono:
+    - sponsorname: ネスグローバル
+      imgname: nes-global.png
+      url: https://www.nes-global.com/
   backsupport:
