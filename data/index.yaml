@@ -61,6 +61,9 @@ prise:
   - sponsorname: ニュータニックス　ジャパン　合同会社
     imgname: nutanix.png
     url: http://www.nutanix.jp
+  - sponsorname: 株式会社IDCフロンティア
+    imgname: idcf.png
+    url: http://www.idcf.jp/cloud/iot/?cid=jtf2016
   silver:
   - sponsorname: ティントリジャパン合同会社
     imgname: tintri.png
