@@ -46,24 +46,27 @@ prise:
     imgname: dmm.png
     url: http://labo.dmm.com/
   gold:
-  - sponsorname: 株式会社はてな
-    imgname: hatena-logotype.svg
-    url: http://hatenacorp.jp/
+  - sponsorname: 株式会社IDCフロンティア
+    imgname: idcf.png
+    url: http://www.idcf.jp/cloud/iot/?cid=jtf2016
+  - sponsorname: 株式会社あくしゅ
+    imgname: axsh.png
+    url: http://axsh.jp
+  - sponsorname: ウォンテッドリー株式会社
+    imgname: wantedly.png
+    url: http://site.wantedly.com/
   - sponsorname: NHN テコラス株式会社
     imgname: nhn-techorus.png
     url: https://nhn-techorus.com/
   - sponsorname: 株式会社ハートビーツ
     imgname: hb.svg
     url: http://heartbeats.jp/
-  - sponsorname: ウォンテッドリー株式会社
-    imgname: wantedly.png
-    url: http://site.wantedly.com/
+  - sponsorname: 株式会社はてな
+    imgname: hatena-logotype.svg
+    url: http://hatenacorp.jp/
   - sponsorname: ニュータニックス　ジャパン　合同会社
     imgname: nutanix.png
     url: http://www.nutanix.jp
-  - sponsorname: 株式会社IDCフロンティア
-    imgname: idcf.png
-    url: http://www.idcf.jp/cloud/iot/?cid=jtf2016
   silver:
   - sponsorname: ティントリジャパン合同会社
     imgname: tintri.png
@@ -72,16 +75,16 @@ prise:
     imgname: blueship.png
     url: http://www.blueship.co.jp
   mono:
-    - sponsorname: ネスグローバル
-      imgname: nes-global.png
-      url: https://www.nes-global.com/
     - sponsorname: オイシックス株式会社
       imgname: oisix.png
       url: http://www.oisix.co.jp/
+    - sponsorname: ネスグローバル
+      imgname: nes-global.png
+      url: https://www.nes-global.com/
   backsupport:
-    - sponsorname: 日本MSP協会
-      imgname: mspj.svg
-      url: http://mspj.jp/
     - sponsorname: CUPA
       imgname: cupa.svg
       url: http://www.cloud.or.jp/
+    - sponsorname: 日本MSP協会
+      imgname: mspj.svg
+      url: http://mspj.jp/
