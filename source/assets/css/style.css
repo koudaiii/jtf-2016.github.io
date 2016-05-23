@@ -209,6 +209,27 @@ a.navbar-brand:hover{
   width: 100%;
   margin: 20px 0;
 }
+.sponsor-img-centerize{
+  text-align: center;
+}
+.sponsor-size-wood{
+  width: 100%;
+}
+.sponsor-size-platinum{
+  width: 90%;
+}
+.sponsor-size-gold{
+  width: 80%;
+}
+.sponsor-size-silver{
+  width: 60%;
+}
+.sponsor-size-mono{
+  width: 60%;
+}
+.sponsor-size-backsupport{
+  width: 60%;
+}
 .topmap{
   margin-top: 40px;
 }
