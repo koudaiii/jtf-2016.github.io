@@ -75,6 +75,9 @@ prise:
     - sponsorname: ネスグローバル
       imgname: nes-global.png
       url: https://www.nes-global.com/
+    - sponsorname: オイシックス株式会社
+      imgname: oisix.png
+      url: http://www.oisix.co.jp/
   backsupport:
     - sponsorname: 日本MSP協会
       imgname: mspj.svg
