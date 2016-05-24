@@ -24,10 +24,10 @@
             <p><%= data.sponsor.description %></p>
           </div>
           <div class="col-md-12 box-section text-center">
+            <% unless data.index.prise.wood.nil? %>
             <div class="col-md-8 col-md-offset-2  col-sm-12 col-xs-12 prise-title wooddark">
               <img src="assets/img/wooddark.png" alt="">
             </div>
-            <% unless data.index.prise.wood.nil? %>
               <% data.index.prise.wood.each_slice(1) do |prise| %>
                 <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
                   <% prise.each do |p| %>
@@ -40,10 +40,10 @@
                 </div>
               <% end %>
             <% end %>
+            <% unless data.index.prise.platinum.nil? %>
             <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12 prise-title platinum">
               <img src="assets/img/platinum.png" alt="">
             </div>
-            <% unless data.index.prise.platinum.nil? %>
               <% data.index.prise.platinum.each_slice(1) do |prise| %>
                 <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
                   <% prise.each do |p| %>
@@ -56,10 +56,10 @@
                 </div>
               <% end %>
             <% end %>
+            <% unless data.index.prise.gold.nil? %>
             <div class="col-md-8 col-md-offset-2  col-sm-12 col-xs-12 prise-title gold">
               <img src="assets/img/gold.png" alt="">
             </div>
-            <% unless data.index.prise.gold.nil? %>
               <% data.index.prise.gold.each_slice(1) do |prise| %>
                 <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
                   <% prise.each do |p| %>
@@ -72,10 +72,11 @@
                 </div>
               <% end %>
             <% end %>
+            <% unless (data.index.prise.silver.nil? || data.index.prise.mono.nil?) %>
+            <% unless data.index.prise.silver.nil? %>
             <div class="col-md-8 col-md-offset-2  col-sm-12 col-xs-12 prise-title silver">
               <img src="assets/img/silver.png" alt="">
             </div>
-            <% unless data.index.prise.silver.nil? %>
               <% data.index.prise.silver.each_slice(1) do |prise| %>
                 <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
                   <% prise.each do |p| %>
@@ -101,10 +102,11 @@
                 </div>
               <% end %>
             <% end %>
+            <% end %>
+            <% unless data.index.prise.backsupport.nil? %>
             <div class="col-md-8 col-md-offset-2  col-sm-12 col-xs-12 prise-title backsupport">
               <img src="assets/img/backsupport.png" alt="">
             </div>
-            <% unless data.index.prise.backsupport.nil? %>
             <% data.index.prise.backsupport.each_slice(1) do |prise| %>
             <div class="col-md-12">
               <% prise.each do |p| %>
