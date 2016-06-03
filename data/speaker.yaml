@@ -34,9 +34,9 @@ speakers:
    history:
     - 日本OpenStackユーザ会の初代会長（2013-2015）として黎明期の普及啓蒙活動や運営体制の確立に従事し、現在もボードメンバーの一人として活動。人材育成の一環として、教育・研究機関での非常勤講師として講義を行いつつ、書籍や記事の執筆を行っている。最近は情報システム活用のための戦略立案支援に注力している。
     - 執筆書籍
-    -「オープンソース・クラウド基盤 OpenStack入門　構築・利用方法から内部構造の理解まで」（KADOKAWA/アスキー・メディアワークス）
-    -「OpenStackクラウドインテグレーション オープンソースクラウドによるサービス構築入門」（翔泳社）
-    -「絵で見てわかるクラウドインフラとAPIの仕組み」（翔泳社）
+    - 「オープンソース・クラウド基盤 OpenStack入門　構築・利用方法から内部構造の理解まで」（KADOKAWA/アスキー・メディアワークス）
+    - 「OpenStackクラウドインテグレーション オープンソースクラウドによるサービス構築入門」（翔泳社）
+    - 「絵で見てわかるクラウドインフラとAPIの仕組み」（翔泳社）
     - twitter @Irix_jp
     - facebook https://www.facebook.com/tomoaki.nakajima    - 1994年 株式会社スクウェア入社Final Fantasy Tactics やFinal Fantasy等、計７プロジェクトに携わる。
    messagetitle: 今エンジニアに最も必要なものは「戦略」である！孫子に学ぶ本質のつかみ方
@@ -44,7 +44,7 @@ speakers:
  - name: 大山裕泰
    imgthumb: oyama-hiroyasu.png
    detail:
-    - 株式会社 DMM.com ラボ 
+    - 株式会社 DMM.com ラボ
     - インフラ統括本部
    history:
     - ソフトウェアエンジニア。アリエル・ネットワーク株式会社、グリー株式会社を経て現在に至る。最近は主にインフラ基盤の運用・開発を行う。共著書に「次世代ネットワーク制御技術 OpenFlow入門」がある。NewtMQ 開発者。
@@ -83,7 +83,7 @@ speakers:
     - facebook https://www.facebook.com/tetsrow.yanno
    messagetitle: 便利に使えるプライベートオンラインストレージ　ownCloudのあれこれと、一歩進んだチューニングを大公開！
    messagebody: ownCloudをご存知でしょうか？会社でDropBoxを使いたい、でも使わせてくれない…。ownCloudは、そんなあなたの悩みを解決する、プライベートなオンラインストレージです。このセッションでは、ownCloudの便利さや使って嬉しいポイント、進化の歴史、快適にownCloudを使うためのチューニングポイントに加え、昨今話題になりがちなセキュリティーをアップするためのTipsも公開します。
- - name: @Clorets8lack
+ - name: "@Clorets8lack"
    imgthumb: Clorets8lack.png
    detail:
     - 株式会社デベルアップジャパン代表取締役
