@@ -24,11 +24,11 @@
             <p><%= data.sponsor.description %></p>
           </div>
           <div class="col-md-12 box-section text-center">
-            <% unless data.index.prise.wood.nil? %>
+            <% unless data.index.prise.mithril.nil? %>
             <div class="col-md-8 col-md-offset-2  col-sm-12 col-xs-12 prise-title wooddark">
-              <img src="assets/img/wooddark.png" alt="">
+              <img src="assets/img/mithrildark.png" alt="">
             </div>
-              <% data.index.prise.wood.each_slice(1) do |prise| %>
+              <% data.index.prise.mithril.each_slice(1) do |prise| %>
                 <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
                   <% prise.each do |p| %>
                     <div class="col-sm-4 col-sm-offset-4 sponsor-img-centerize">

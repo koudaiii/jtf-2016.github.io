@@ -409,6 +409,17 @@ img.userprofileimg{
   margin: 10px 0 20px 0;
 }
 
+/* program table style */
+.ui-flickable-content{
+  border: 1px solid rgba(0,0,0,0.7);
+}
+tbody.programtable tr td{
+  font-size: 12px;
+  padding: 8px;
+  width: 140px;
+}
+
+
 @media (max-width: 1200px) {
   .section-cell{
     height: 100%;
