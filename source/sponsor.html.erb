@@ -24,75 +24,100 @@
             <p><%= data.sponsor.description %></p>
           </div>
           <div class="col-md-12 box-section text-center">
+            <% unless data.index.prise.wood.nil? %>
             <div class="col-md-8 col-md-offset-2  col-sm-12 col-xs-12 prise-title wooddark">
               <img src="assets/img/wooddark.png" alt="">
             </div>
-            <% unless data.index.prise.wood.nil? %>
-              <% data.index.prise.wood.each_slice(3) do |prise| %>
+              <% data.index.prise.wood.each_slice(1) do |prise| %>
                 <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
                   <% prise.each do |p| %>
-                    <div class="col-md-4 col-sm-4 col-xs-12">
-                      <img src="assets/img/sponsor/<%= p.imgname %>" alt="<%= p.sponsorname %>" class="sponsor-img">
+                    <div class="col-sm-4 col-sm-offset-4 sponsor-img-centerize">
+                      <a class="linkwhite" href="<%= p.url %>">
+                        <img src="assets/img/sponsor/<%= p.imgname %>" alt="<%= p.sponsorname %>" class="sponsor-img sponsor-size-wood">
+                      </a>
                     </div>
                   <% end %>
                 </div>
               <% end %>
             <% end %>
+            <% unless data.index.prise.platinum.nil? %>
             <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12 prise-title platinum">
               <img src="assets/img/platinum.png" alt="">
             </div>
-            <% unless data.index.prise.platinum.nil? %>
-              <% data.index.prise.platinum.each_slice(3) do |prise| %>
+              <% data.index.prise.platinum.each_slice(1) do |prise| %>
                 <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
                   <% prise.each do |p| %>
-                    <div class="col-md-4 col-sm-4 col-xs-12">
-                      <img src="assets/img/sponsor/<%= p.imgname %>" alt="<%= p.sponsorname %>" class="sponsor-img">
+                    <div class="col-sm-4 col-sm-offset-4 sponsor-img-centerize">
+                      <a class="linkwhite" href="<%= p.url %>">
+                        <img src="assets/img/sponsor/<%= p.imgname %>" alt="<%= p.sponsorname %>" class="sponsor-img sponsor-size-platinum">
+                      </a>
                     </div>
                   <% end %>
                 </div>
               <% end %>
             <% end %>
+            <% unless data.index.prise.gold.nil? %>
             <div class="col-md-8 col-md-offset-2  col-sm-12 col-xs-12 prise-title gold">
               <img src="assets/img/gold.png" alt="">
             </div>
-            <% unless data.index.prise.gold.nil? %>
-              <% data.index.prise.gold.each_slice(3) do |prise| %>
+              <% data.index.prise.gold.each_slice(1) do |prise| %>
                 <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
                   <% prise.each do |p| %>
-                    <div class="col-md-4 col-sm-4 col-xs-12">
-                      <img src="assets/img/sponsor/<%= p.imgname %>" alt="<%= p.sponsorname %>" class="sponsor-img">
+                    <div class="col-sm-4 col-sm-offset-4 sponsor-img-centerize">
+                      <a class="linkwhite" href="<%= p.url %>">
+                        <img src="assets/img/sponsor/<%= p.imgname %>" alt="<%= p.sponsorname %>" class="sponsor-img sponsor-size-gold">
+                      </a>
                     </div>
                   <% end %>
                 </div>
               <% end %>
             <% end %>
+            <% unless (data.index.prise.silver.nil? || data.index.prise.mono.nil?) %>
+            <% unless data.index.prise.silver.nil? %>
             <div class="col-md-8 col-md-offset-2  col-sm-12 col-xs-12 prise-title silver">
               <img src="assets/img/silver.png" alt="">
             </div>
-            <% unless data.index.prise.silver.nil? %>
-              <% data.index.prise.silver.each_slice(3) do |prise| %>
+              <% data.index.prise.silver.each_slice(1) do |prise| %>
                 <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
                   <% prise.each do |p| %>
-                    <div class="col-md-4 col-sm-4 col-xs-12">
-                      <img src="assets/img/sponsor/<%= p.imgname %>" alt="<%= p.sponsorname %>" class="sponsor-img">
+                    <div class="col-sm-4 col-sm-offset-4 sponsor-img-centerize">
+                      <a class="linkwhite" href="<%= p.url %>">
+                        <img src="assets/img/sponsor/<%= p.imgname %>" alt="<%= p.sponsorname %>" class="sponsor-img sponsor-size-silver">
+                      </a>
                     </div>
                   <% end %>
                 </div>
               <% end %>
             <% end %>
-            <div class="col-md-8 col-md-offset-2  col-sm-12 col-xs-12 prise-title bronze">
-              <img src="assets/img/bronze.png" alt="">
-            </div>
-            <% unless data.index.prise.bronze.nil? %>
-              <% data.index.prise.bronze.each_slice(3) do |prise| %>
+            <% unless data.index.prise.mono.nil? %>
+              <% data.index.prise.mono.each_slice(1) do |prise| %>
                 <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
                   <% prise.each do |p| %>
-                    <div class="col-md-4 col-sm-4 col-xs-12">
-                      <img src="assets/img/sponsor/<%= p.imgname %>" alt="<%= p.sponsorname %>" class="sponsor-img">
+                    <div class="col-sm-4 col-sm-offset-4 sponsor-img-centerize">
+                      <a class="linkwhite" href="<%= p.url %>">
+                        <img src="assets/img/sponsor/<%= p.imgname %>" alt="<%= p.sponsorname %>" class="sponsor-img sponsor-size-mono">
+                      </a>
                     </div>
                   <% end %>
                 </div>
               <% end %>
+            <% end %>
+            <% end %>
+            <% unless data.index.prise.backsupport.nil? %>
+            <div class="col-md-8 col-md-offset-2  col-sm-12 col-xs-12 prise-title backsupport">
+              <img src="assets/img/backsupport.png" alt="">
+            </div>
+            <% data.index.prise.backsupport.each_slice(1) do |prise| %>
+            <div class="col-md-12">
+              <% prise.each do |p| %>
+              <div class="col-sm-4 col-sm-offset-4 sponsor-img-centerize">
+                <a class="linkwhite" href="<%= p.url %>">
+                  <img src="assets/img/sponsor/<%= p.imgname %>" alt="<%= p.sponsorname %>" class="sponsor-img sponsor-size-backsupport">
+                </a>
+              </div>
+              <% end %>
+            </div>
+            <% end %>
             <% end %>
           </div>
         </div>

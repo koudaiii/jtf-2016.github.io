@@ -12,6 +12,12 @@ html,body{
 ul.nav.navbar-nav.jtfnavlist li a{
   color:#ffffff;
 }
+.nav-justified > li > a {
+  color:#ffffff;
+}
+.nav-justified > li > a:hover {
+  color:#000000;
+}
 ul.nav.navbar-nav.jtfnavlist li.active a{
   color:#aa9f57;
   background: url("../img/triangle.png") no-repeat;
@@ -203,13 +209,34 @@ a.navbar-brand:hover{
   width: 100%;
   margin: 20px 0;
 }
+.sponsor-img-centerize{
+  text-align: center;
+}
+.sponsor-size-wood{
+  width: 100%;
+}
+.sponsor-size-platinum{
+  width: 90%;
+}
+.sponsor-size-gold{
+  width: 80%;
+}
+.sponsor-size-silver{
+  width: 60%;
+}
+.sponsor-size-mono{
+  width: 60%;
+}
+.sponsor-size-backsupport{
+  width: 60%;
+}
 .topmap{
   margin-top: 40px;
 }
-.jtf-social{
+.jtf-ticket{
   margin-top: 40px;
 }
-.jtf-social-img{
+.jtf-ticket-img{
   width: 100%;
 }
 .linkwhite{
@@ -234,8 +261,8 @@ a.navbar-brand:hover{
 .silver{
   background: url('../img/silverline.png') no-repeat center center;
 }
-.bronze{
-  background: url('../img/bronzeline.png') no-repeat center center;
+.mono{
+  background: url('../img/monoline.png') no-repeat center center;
 }
 .platinum{
   background: url('../img/platinumline.png') no-repeat center center;

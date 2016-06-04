@@ -9,7 +9,7 @@
 
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
-<div class="home">
+<div class="home" id="home">
   <div class="carouselback">
     <div class="carouselback-black">
       <div class="container">
@@ -57,7 +57,7 @@
       </div>
     </div>
   </div>
-  <div class="section">
+  <div class="section" id="about">
     <div class="section-1">
       <div class="container">
         <div class="section-cell inner-about">
@@ -70,16 +70,27 @@
                 <div class="col-md-7 col-sm-7 col-xs-12">
                   <h1><%= data.index.about.title %></h1>
                   <p><%= data.index.about.detail %></p>
-                  <div class="jtf-social">
-                    <div class="row">
-                      <div class="col-md-6 col-sm-6 col-xs-6">
-                        <a href="https://www.facebook.com/techfesta/" target="_blank"><img src="assets/img/facebook.png" alt="facebook" class="jtf-social-img"></a>
-                      </div>
-                      <div class="col-md-6 col-sm-6 col-xs-6">
-                        <a href="https://twitter.com/techfesta" target="_blank"><img src="assets/img/twitter.png" alt="twitter" class="jtf-social-img"></a>
-                      </div>
-                    </div>
-                  </div>
+                  <h1><%= data.index.info.title %></h1>
+                  <p><%= data.index.info.name %></p>
+                  <p><%= data.index.info.date %></p>
+                  <p><%= data.index.info.prise %></p>
+                  <h1>過去開催</h1>
+                  <ul class="nav nav-pills nav-justified">
+                    <li role="presentation">
+                      <a href="http://2015.techfesta.jp/" target="_blank">2015年</a>
+                    </li>
+                    <li role="presentation">
+                      <a href="http://2014.techfesta.jp/" target="_blank">2014年</a>
+                    </li>
+                    <li role="presentation">
+                      <a href="http://2013.techfesta.jp/" target="_blank">2013年</a>
+                    </li>
+                  </ul>
+                  <ul class="nav nav-pills">
+                    <li role="presentation">
+                      <a href="http://jtf2016.peatix.com/" target="_blank"><img src="assets/img/button_off.png" alt="peatix" class="jtf-ticket-img"></a>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -88,7 +99,7 @@
       </div>
     </div>
   </div>
-  <div class="section">
+  <div class="section" id="thema">
     <div class="section-2">
       <div class="container">
         <div class="section-cell inner-thema">
@@ -109,7 +120,7 @@
       </div>
     </div>
   </div>
-  <div class="section">
+  <div class="section" id="news">
     <div class="section-1">
       <div class="container">
         <div class="section-cell inner-news">
@@ -143,7 +154,7 @@
                             </div>
                           </div>
                           <div class="panel-body">
-                            <%= news.description %><a href="#">Read more</a>
+                            <%= news.description %>
                           </div>
                           <div class="panel-footer">
                             <% news.tag.each do |tag| %>
@@ -165,7 +176,7 @@
       </div>
     </div>
   </div>
-  <div class="section">
+  <div class="section" id="sns">
     <div class="section-2">
       <div class="container">
         <div class="section-cell inner-thema">
@@ -198,7 +209,7 @@
       </div>
     </div>
   </div>
-  <div class="section">
+  <div class="section" id="keynote">
     <div class="section-1">
       <div class="container">
         <div class="section-cell inner-keynote">
@@ -235,7 +246,7 @@
       </div>
     </div>
   </div>
-  <div class="section">
+  <div class="section" id="access">
     <div class="section-3">
       <div class="container">
         <div class="section-cell aboid-padding-b">
@@ -256,7 +267,7 @@
                 </div>
                 <div class="col-md-7 col-sm-7 col-xs-12">
                   <div class="row">
-                    <h2>産業技術大学院大学(公立大学法人&nbsp;首都大学東京)東京都品川区東大井町1-10-40</h2>
+                    <h2>産業技術大学院大学(公立大学法人&nbsp;首都大学東京)東京都品川区東大井1-10-40</h2>
                     <p>交通手段は電車・バスの２通りがあります。<br/>
                       ▶ りんかい線の「品川シーサイド駅」Ｂ出口 から徒歩4分<br/>
                       ▶ 都営バスの「都立産業技術高専品川キャンパス前」(直行01, 深夜07, 品91, 品川93, 井92)から徒歩3分</p>
@@ -281,7 +292,7 @@
         </div>
       </div>
     </div>
-    <div class="section">
+    <div class="section" id="sponsor">
       <div class="section-4">
         <div class="container">
           <div class="section-cell-free">
@@ -289,96 +300,95 @@
               <div class="row">
                 <div class="col-md-12 text-center">
                   <img src="assets/img/sponsor.png" alt="sponsor" class="sectioncapt-sponsor-img">
+                  <% unless data.index.prise.wood.nil? %>
                   <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12 prise-title wood">
                     <img src="assets/img/wood.png" alt="">
                   </div>
-                  <% unless data.index.prise.wood.nil? %>
-                  <% data.index.prise.wood.each_slice(3) do |prise| %>
+                  <% data.index.prise.wood.each_slice(1) do |prise| %>
                   <div class="col-md-12">
                     <% prise.each do |p| %>
-                    <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="col-md-4 col-md-offset-4">
                       <a class="linkwhite" href="<%= p.url %>">
-                        <img src="assets/img/sponsor/<%= p.imgname %>" alt="<%= p.sponsorname %>" class="sponsor-img">
+                        <img src="assets/img/sponsor/<%= p.imgname %>" alt="<%= p.sponsorname %>" class="sponsor-img sponsor-size-wood">
                       </a>
                     </div>
                     <% end %>
                   </div>
                   <% end %>
                   <% end %>
+                  <% unless data.index.prise.platinum.nil? %>
                   <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12 prise-title platinum">
                     <img src="assets/img/platinum.png" alt="">
                   </div>
-                  <% unless data.index.prise.platinum.nil? %>
-                  <% data.index.prise.platinum.each_slice(3) do |prise| %>
+                  <% data.index.prise.platinum.each_slice(1) do |prise| %>
                   <div class="col-md-12">
                     <% prise.each do |p| %>
-                    <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="col-md-4 col-md-offset-4">
                       <a class="linkwhite" href="<%= p.url %>">
-                        <img src="assets/img/sponsor/<%= p.imgname %>" alt="<%= p.sponsorname %>" class="sponsor-img">
+                        <img src="assets/img/sponsor/<%= p.imgname %>" alt="<%= p.sponsorname %>" class="sponsor-img sponsor-size-platinum">
                       </a>
                     </div>
                     <% end %>
                   </div>
                   <% end %>
                   <% end %>
+                  <% unless data.index.prise.gold.nil? %>
                   <div class="col-md-8 col-md-offset-2  col-sm-12 col-xs-12 prise-title gold">
                     <img src="assets/img/gold.png" alt="">
                   </div>
-                  <% unless data.index.prise.gold.nil? %>
-                  <% data.index.prise.gold.each_slice(3) do |prise| %>
+                  <% data.index.prise.gold.each_slice(1) do |prise| %>
                   <div class="col-md-12">
                     <% prise.each do |p| %>
-                    <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="col-md-4 col-md-offset-4">
                       <a class="linkwhite" href="<%= p.url %>">
-                        <img src="assets/img/sponsor/<%= p.imgname %>" alt="<%= p.sponsorname %>" class="sponsor-img">
+                        <img src="assets/img/sponsor/<%= p.imgname %>" alt="<%= p.sponsorname %>" class="sponsor-img sponsor-size-gold">
                       </a>
                     </div>
                     <% end %>
                   </div>
                   <% end %>
                   <% end %>
+                  <% unless (data.index.prise.silver.nil? || data.index.prise.mono.nil?) %>
+                  <% unless data.index.prise.silver.nil? %>
                   <div class="col-md-8 col-md-offset-2  col-sm-12 col-xs-12 prise-title silver">
                     <img src="assets/img/silver.png" alt="">
                   </div>
-                  <% unless data.index.prise.silver.nil? %>
-                  <% data.index.prise.silver.each_slice(3) do |prise| %>
+                  <% data.index.prise.silver.each_slice(1) do |prise| %>
                   <div class="col-md-12">
                     <% prise.each do |p| %>
-                    <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="col-md-4 col-md-offset-4">
                       <a class="linkwhite" href="<%= p.url %>">
-                        <img src="assets/img/sponsor/<%= p.imgname %>" alt="<%= p.sponsorname %>" class="sponsor-img">
+                        <img src="assets/img/sponsor/<%= p.imgname %>" alt="<%= p.sponsorname %>" class="sponsor-img sponsor-size-silver">
                       </a>
                     </div>
                     <% end %>
                   </div>
                   <% end %>
                   <% end %>
-                  <div class="col-md-8 col-md-offset-2  col-sm-12 col-xs-12 prise-title bronze">
-                    <img src="assets/img/bronze.png" alt="">
-                  </div>
-                  <% unless data.index.prise.bronze.nil? %>
-                  <% data.index.prise.bronze.each_slice(3) do |prise| %>
+                  <% unless data.index.prise.mono.nil? %>
+                  <% data.index.prise.mono.each_slice(1) do |prise| %>
                   <div class="col-md-12">
                     <% prise.each do |p| %>
-                    <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="col-md-4 col-md-offset-4">
                       <a class="linkwhite" href="<%= p.url %>">
-                        <img src="assets/img/sponsor/<%= p.imgname %>" alt="<%= p.sponsorname %>" class="sponsor-img">
+                        <img src="assets/img/sponsor/<%= p.imgname %>" alt="<%= p.sponsorname %>" class="sponsor-img sponsor-size-mono">
                       </a>
                     </div>
                     <% end %>
                   </div>
                   <% end %>
                   <% end %>
+                  <% end %>
+                  <% unless data.index.prise.backsupport.nil? %>
                   <div class="col-md-8 col-md-offset-2  col-sm-12 col-xs-12 prise-title backsupport">
                     <img src="assets/img/backsupport.png" alt="">
                   </div>
-                  <% unless data.index.prise.backsupport.nil? %>
-                  <% data.index.prise.backsupport.each_slice(3) do |prise| %>
+                  <% data.index.prise.backsupport.each_slice(1) do |prise| %>
                   <div class="col-md-12">
                     <% prise.each do |p| %>
-                    <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="col-md-4 col-md-offset-4">
                       <a class="linkwhite" href="<%= p.url %>">
-                        <img src="assets/img/sponsor/<%= p.imgname %>" alt="<%= p.sponsorname %>" class="sponsor-img">
+                        <img src="assets/img/sponsor/<%= p.imgname %>" alt="<%= p.sponsorname %>" class="sponsor-img sponsor-size-backsupport">
                       </a>
                     </div>
                     <% end %>

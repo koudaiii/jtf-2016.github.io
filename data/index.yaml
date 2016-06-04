@@ -2,6 +2,12 @@ about:
   title: 開催趣旨
   detail: クラウド環境が技術者のアジリティを高めているのを象徴するかのように、昨今は関連する新しいツールが毎日のように話題になっています。こうした激変し続けるITトレンドの中から、技術者は真に自身の業務を変革するものを探し続けており、情報交換と人脈構築の場が求められています。これらの意欲と活動に応じるため、ITに係るエンジニアの知的興味を満足するための夏の祭典として「IoTxAIxインフラ時代の最新技術、やってみたSP ―俺の屍を超えていけ―」をスローガンに当イベントを開催いたします。
 
+info:
+  title: 開催内容
+  name: July Tech Festa 2016 「IoTxAIxインフラ時代の最新技術、やってみたSP — 俺の屍を越えて行け —」
+  date: 2016/07/24 (日) 10:00 - 18:00 JST
+  prise: 東京都品川区東大井1-10-40 産業技術大学院大学(公立大学法人 首都大学東京)
+
 thema:
   title: July Tech Festaのテーマ
   detail: IoT、AI、インフラの変化は近年ますます加速しています。変化のためにいろんな人が試行錯誤して新しい技術を生み出したり業務で活用するために検証したりしています。そんないろんな成功談・失敗談を共有していきたいという強い思いから今回のテーマとなりました。より良い開催となるためには皆さんの努力の結晶を是非共有していただきたいと思っています。そしてこれからどうなっていくのか次の１年が見えてくるような、そんなJulyTechFestaにしたいと思っています。皆様のご参加お待ちしています！！
@@ -9,20 +15,17 @@ thema:
 news:
   title: お知らせ
   contents:
-    - title: テキスト1
+    - title: CFP 募集
       date: 2016/05/03
-      description: テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+      description: CPFの募集開始しました。5/10 締め切りです!
       tag:
-        - July
-        - Tech
-        - Fes
-    - title: テキスト2
-      date: 2016/05/03
-      description: テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+        - CFP
+        - Wanted
+    - title: サイト開設
+      date: 2016/05/01
+      description: JTF2016 サイト開設しました
       tag:
-        - July
-        - Tech
-        - Fes
+        - News
 
 keynote:
  title: 基調講演
@@ -39,16 +42,28 @@ prise:
   - sponsorname: TIS株式会社
     imgname: tis.png
     url: https://www.tis.co.jp/
+  - sponsorname: 株式会社DMM.comラボ
+    imgname: dmm-labo.png
+    url: http://labo.dmm.com/
   gold:
-  - sponsorname: 株式会社はてな
-    imgname: hatena-logotype.svg
-    url: http://hatenacorp.jp/
+  - sponsorname: 株式会社IDCフロンティア
+    imgname: idcf.png
+    url: http://www.idcf.jp/cloud/iot/?cid=jtf2016
+  - sponsorname: 株式会社あくしゅ
+    imgname: axsh.png
+    url: http://axsh.jp
+  - sponsorname: ウォンテッドリー株式会社
+    imgname: wantedly.png
+    url: http://site.wantedly.com/
   - sponsorname: NHN テコラス株式会社
     imgname: nhn-techorus.png
     url: https://nhn-techorus.com/
   - sponsorname: 株式会社ハートビーツ
     imgname: hb.svg
     url: http://heartbeats.jp/
+  - sponsorname: 株式会社はてな
+    imgname: hatena-logotype.svg
+    url: http://hatenacorp.jp/
   - sponsorname: ニュータニックス　ジャパン　合同会社
     imgname: nutanix.png
     url: http://www.nutanix.jp
@@ -59,5 +74,17 @@ prise:
   - sponsorname: 株式会社Blueship
     imgname: blueship.png
     url: http://www.blueship.co.jp
-  bronze:
+  mono:
+    - sponsorname: オイシックス株式会社
+      imgname: oisix.png
+      url: http://www.oisix.co.jp/
+    - sponsorname: ネスグローバル
+      imgname: nes-global.png
+      url: https://www.nes-global.com/
   backsupport:
+    - sponsorname: CUPA
+      imgname: cupa.svg
+      url: http://www.cloud.or.jp/
+    - sponsorname: 日本MSP協会
+      imgname: mspj.svg
+      url: http://mspj.jp/
