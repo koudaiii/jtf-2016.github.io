@@ -102,3 +102,16 @@ speakers:
     - twitter @Clorets8lack
    messagetitle: 情シス戦線異状アリ！？ 自作のパケットレコーダーで海外拠点のLANを自動監視してみた
    messagebody: 事業のグローバル化が叫ばれる昨今、海外に拠点を構える企業が増えています。しかし多くの場合、現地に専任のIT担当者を置くことはコストの観点から極めて難しいのが実情です。海外拠点を日本から遠隔サポートするケースでは、時差や言語の問題だけでなく、政府による通信規制や現地業者の品質、機材の違い等、日本とはあまりに異なる状況が地獄のように担当者を苦しめます。そんな中、精度よく迅速にトラブルを解決し、現地スタッフの信頼を得つつ、ガバナンスを確立するにはどうしたら良いでしょうか。本セッションではパケットキャプチャを用いて海外拠点のLANをリアルタイムに監視し、統計処理により異常検知する仕組みを開発･運用した体験談をお話します。遠隔地のインフラを高品質に保守するノウハウについて、実際に発生したインシデント事例をもとにご紹介したいと思います。
+ - name: koudaiii
+   programid: XXX
+   imgthumb: koudaiii.png
+   detail:
+    - Wantedly,Inc Engineer
+   history:
+    - SIer にて、 2つのSaaSのカスタマーサポートを行いながら、 サービスの運用を経験後、Wantedly にてインフラエンジニアとして、自社サービスの基盤の改善並びに運用を従事しているエンジニア。
+    - インタビュー： http://dev.classmethod.jp/devops/dev-ops-wantedly/ 
+    - twitter @koudaiii
+    - facebook https://www.facebook.com/koudaiii
+    - github https://github.com/koudaiii
+   messagetitle: Wantedly の文化を支えるインフラとビジネスの変化に強いインフラ
+   messagebody: Wantedly では、 CI や デプロイツール等ある程度の部分は、昔から当たり前の領域で行っていましたが、エンジニアの人数が増えていった時、生産性が落ちていると感じておりました。生産性の向上を目指すために文化的な側面、チームの運用的な側面等、技術以外でも様々な取り組みを行ってきました。今回 http://dev.classmethod.jp/devops/dev-ops-wantedly/ 記事にある 「Code wins Arguments」を支えるインフラ について、具体的にどうインフラを変化させてきたかをお話出来ればと思います。
