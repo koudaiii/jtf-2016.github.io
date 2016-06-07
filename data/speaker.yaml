@@ -115,3 +115,17 @@ speakers:
     - github https://github.com/koudaiii
    messagetitle: Wantedly の文化を支えるインフラとビジネスの変化に強いインフラ
    messagebody: Wantedly では、 CI や デプロイツール等ある程度の部分は、昔から当たり前の領域で行っていましたが、エンジニアの人数が増えていった時、生産性が落ちていると感じておりました。生産性の向上を目指すために文化的な側面、チームの運用的な側面等、技術以外でも様々な取り組みを行ってきました。今回 http://dev.classmethod.jp/devops/dev-ops-wantedly/ 記事にある 「Code wins Arguments」を支えるインフラ について、具体的にどうインフラを変化させてきたかをお話出来ればと思います。
+ - name: nilfigo (松本隆則)
+   programid: XXX
+   imgthumb: nilfigo.png
+   detail:
+    - OWASP Japan
+   history:
+　  - オープン系システム開発に10年以上従事した後、とあるきっかけからセキュリティ診断を生業としてきたが、ちょっとやり方を変えようと思い立ち上げたのが「脆弱性診断研究会」。30回以上開催してきたハンズオンセミナーによりIT関連のエンジニアやマネージャーにセキュリティ診断手法を啓蒙中。2016年からはOWASP Japanのプロモーションチームに所属して「セキュアなインターネッツ」の構築を目指す。
+　  - Twitter @DYOH2017
+　  - Facebook https://www.facebook.com/nilfigo
+　  - 脆弱性診断研究会
+　  - https://www.facebook.com/groups/zeijakusei.shindan.kenkyukai/ （グループ）
+　  - https://www.facebook.com/sec.testing.study.session/ （コミュニティ）
+   messagetitle: CIプロセスにセキュリティ診断を組み込もう！Eclipse CheとOWASP ZAPで実現する、セキュアなシステム開発のすすめ
+   messagebody:セキュリティの話題が事欠かない現在、システムは開発段階からセキュリティを意識して高めておきたいもの。そこで、今春に発表されたクラウドIDE「Eclipse Che」と、高機能なWebアプリケーションのセキュリティ診断ツールであるOWASP ZAPを連携させることにより、システム開発中にセキュリティ診断を自動的に実施していく手法を探ります。
