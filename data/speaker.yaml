@@ -109,7 +109,7 @@ speakers:
     - Wantedly,Inc Engineer
    history:
     - SIer にて、 2つのSaaSのカスタマーサポートを行いながら、 サービスの運用を経験後、Wantedly にてインフラエンジニアとして、自社サービスの基盤の改善並びに運用を従事しているエンジニア。
-    - インタビュー： http://dev.classmethod.jp/devops/dev-ops-wantedly/ 
+    - インタビュー： http://dev.classmethod.jp/devops/dev-ops-wantedly/
     - twitter @koudaiii
     - facebook https://www.facebook.com/koudaiii
     - github https://github.com/koudaiii
@@ -121,11 +121,12 @@ speakers:
    detail:
     - OWASP Japan
    history:
-　  - オープン系システム開発に10年以上従事した後、とあるきっかけからセキュリティ診断を生業としてきたが、ちょっとやり方を変えようと思い立ち上げたのが「脆弱性診断研究会」。30回以上開催してきたハンズオンセミナーによりIT関連のエンジニアやマネージャーにセキュリティ診断手法を啓蒙中。2016年からはOWASP Japanのプロモーションチームに所属して「セキュアなインターネッツ」の構築を目指す。
-　  - Twitter @DYOH2017
-　  - Facebook https://www.facebook.com/nilfigo
-　  - 脆弱性診断研究会
-　  - https://www.facebook.com/groups/zeijakusei.shindan.kenkyukai/ （グループ）
-　  - https://www.facebook.com/sec.testing.study.session/ （コミュニティ）
+    - オープン系システム開発に10年以上従事した後、とあるきっかけからセキュリティ診断を生業としてきたが、ちょっとやり方を変えようと思い立ち上げたのが「脆弱性診断研究会」。30回以上開催してきたハンズオンセミナーによりIT関連のエンジニアやマネージャーにセキュリティ診断手法を啓蒙中。2016年からはOWASP Japanのプロモーションチームに所属して「セキュアなインターネッツ」の構築を目指す。
+    - Twitter @DYOH2017
+    - Facebook https://www.facebook.com/nilfigo
+    - 　
+    - 脆弱性診断研究会
+    - https://www.facebook.com/groups/zeijakusei.shindan.kenkyukai/ （グループ）
+    - https://www.facebook.com/sec.testing.study.session/ （コミュニティ）
    messagetitle: CIプロセスにセキュリティ診断を組み込もう！Eclipse CheとOWASP ZAPで実現する、セキュアなシステム開発のすすめ
    messagebody: セキュリティの話題が事欠かない現在、システムは開発段階からセキュリティを意識して高めておきたいもの。そこで、今春に発表されたクラウドIDE「Eclipse Che」と、高機能なWebアプリケーションのセキュリティ診断ツールであるOWASP ZAPを連携させることにより、システム開発中にセキュリティ診断を自動的に実施していく手法を探ります。
