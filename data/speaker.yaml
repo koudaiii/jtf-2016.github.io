@@ -128,4 +128,4 @@ speakers:
 　  - https://www.facebook.com/groups/zeijakusei.shindan.kenkyukai/ （グループ）
 　  - https://www.facebook.com/sec.testing.study.session/ （コミュニティ）
    messagetitle: CIプロセスにセキュリティ診断を組み込もう！Eclipse CheとOWASP ZAPで実現する、セキュアなシステム開発のすすめ
-   messagebody:セキュリティの話題が事欠かない現在、システムは開発段階からセキュリティを意識して高めておきたいもの。そこで、今春に発表されたクラウドIDE「Eclipse Che」と、高機能なWebアプリケーションのセキュリティ診断ツールであるOWASP ZAPを連携させることにより、システム開発中にセキュリティ診断を自動的に実施していく手法を探ります。
+   messagebody: セキュリティの話題が事欠かない現在、システムは開発段階からセキュリティを意識して高めておきたいもの。そこで、今春に発表されたクラウドIDE「Eclipse Che」と、高機能なWebアプリケーションのセキュリティ診断ツールであるOWASP ZAPを連携させることにより、システム開発中にセキュリティ診断を自動的に実施していく手法を探ります。
