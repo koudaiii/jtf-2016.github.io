@@ -176,7 +176,7 @@ a.navbar-brand:hover{
   background: url('../img/back1.png') no-repeat left;
   background-size: cover;
 }
-.inner-thema{
+.inner-theme{
   background: url('../img/back2.png') no-repeat right;
 }
 .inner-keynote{
@@ -455,7 +455,7 @@ tbody.programtable tr td{
   .inner-about{
     background-size:cover;
   }
-  .inner-thema{
+  .inner-theme{
     background-size:cover;
   }
   .inner-keynote{
