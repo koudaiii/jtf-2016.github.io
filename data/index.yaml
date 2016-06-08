@@ -15,6 +15,11 @@ thema:
 news:
   title: お知らせ
   contents:
+    - title: 登壇者公開!
+      date: 2016/06/08
+      description: 講演者から情報を頂き次第、随時アップデートしていきます。<a href=\"https://www.facebook.com/techfesta/\">Facebook</a>や<a href=\"https://twitter.com/techfesta\">Twitter</a>で発信していきますので、今後も引き続きアップデート情報をお待ちください。
+      tag:
+        - Speaker
     - title: CFP 募集
       date: 2016/05/03
       description: CPFの募集開始しました。5/10 締め切りです!
