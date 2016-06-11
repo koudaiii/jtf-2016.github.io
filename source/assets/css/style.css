@@ -1,6 +1,10 @@
 html,body{
   font-family: "Hiragino","Meiryo"
 }
+
+a {
+  color: grey;
+}
 /*navbar area*/
 .jtfnav{
   background: #002f7b;
