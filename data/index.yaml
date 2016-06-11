@@ -87,6 +87,9 @@ prise:
       imgname: nes-global.png
       url: https://www.nes-global.com/
   backsupport:
+    - sponsorname: OWASP Japan
+      imgname: owasp.jpg
+      url: https://www.owasp.org/index.php/Japan
     - sponsorname: CUPA
       imgname: cupa.svg
       url: http://www.cloud.or.jp/
