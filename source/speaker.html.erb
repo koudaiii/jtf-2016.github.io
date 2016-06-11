@@ -31,6 +31,26 @@
                     </div>
                     <div class="col-md-9 col-sm-9 col-xs-12">
                       <h2><%= s.name %></h2>
+                      <% if s.sns.present? %>
+                        <% if s.sns.twitter %>
+                          <a href="https://twitter.com/<%= s.sns.twitter %>" target=="_blank">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                          </a>
+                        <% else %>
+                        <% end %>
+                        <% if s.sns.facebook %>
+                          <a href="https://www.facebook.com/<%= s.sns.facebook %>" target="_blank">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                          </a>
+                        <% else %>
+                        <% end %>
+                        <% if s.sns.github %>
+                          <a href="https://github.com/<%= s.sns.github %>" target="_blank">
+                            <i class="fa fa-github-alt" aria-hidden="true"></i>
+                          </a>
+                        <% else %>
+                        <% end %>
+                      <% end %>
                       <p>
                         <% s.detail.each do |d| %>
                         <small><%= d %></small><br/>
