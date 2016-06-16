@@ -43,6 +43,9 @@ keynote:
 
 prise:
   mithril:
+  - sponsorname: WorksApplications
+    imgname: wap.png
+    url: http://www.worksap.co.jp/
   platinum:
   - sponsorname: TIS株式会社
     imgname: tis.png
