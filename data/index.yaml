@@ -57,9 +57,11 @@ prise:
   - sponsorname: 株式会社IDCフロンティア
     imgname: idcf.png
     url: http://www.idcf.jp/cloud/iot/?cid=jtf2016
+    zoom: 60%
   - sponsorname: 株式会社あくしゅ
     imgname: axsh.png
     url: http://axsh.jp
+    zoom: 50%
   - sponsorname: ウォンテッドリー株式会社
     imgname: wantedly.png
     url: http://site.wantedly.com/
@@ -79,16 +81,20 @@ prise:
   - sponsorname: ティントリジャパン合同会社
     imgname: tintri.png
     url: http://tintri.co.jp
+    zoom: 50%
   - sponsorname: 株式会社Blueship
     imgname: blueship.png
     url: http://www.blueship.co.jp
+    zoom: 40%
   mono:
     - sponsorname: オイシックス株式会社
       imgname: oisix.png
       url: http://www.oisix.co.jp/
+      zoom: 50%
     - sponsorname: ネスグローバル
       imgname: nes-global.png
       url: https://www.nes-global.com/
+      zoom: 35%
   backsupport:
     - sponsorname: OWASP Japan
       imgname: owasp.jpg

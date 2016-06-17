@@ -33,7 +33,7 @@
                   <% prise.each do |p| %>
                     <div class="col-sm-4 col-sm-offset-4 sponsor-img-centerize">
                       <a class="linkwhite" href="<%= p.url %>">
-                        <img src="assets/img/sponsor/<%= p.imgname %>" alt="<%= p.sponsorname %>" class="sponsor-img sponsor-size-wood">
+                        <img src="assets/img/sponsor/<%= p.imgname %>" alt="<%= p.sponsorname %>" class="sponsor-img sponsor-size-wood" <%= (p.zoom.nil?)?"":"style=\"width:"+p.zoom+"\"" %> >
                       </a>
                     </div>
                   <% end %>
@@ -49,7 +49,7 @@
                   <% prise.each do |p| %>
                     <div class="col-sm-4 col-sm-offset-4 sponsor-img-centerize">
                       <a class="linkwhite" href="<%= p.url %>">
-                        <img src="assets/img/sponsor/<%= p.imgname %>" alt="<%= p.sponsorname %>" class="sponsor-img sponsor-size-platinum">
+                        <img src="assets/img/sponsor/<%= p.imgname %>" alt="<%= p.sponsorname %>" class="sponsor-img sponsor-size-platinum" <%= (p.zoom.nil?)?"":"style=\"width:"+p.zoom+"\"" %> >
                       </a>
                     </div>
                   <% end %>
@@ -65,7 +65,7 @@
                   <% prise.each do |p| %>
                     <div class="col-sm-4 col-sm-offset-4 sponsor-img-centerize">
                       <a class="linkwhite" href="<%= p.url %>">
-                        <img src="assets/img/sponsor/<%= p.imgname %>" alt="<%= p.sponsorname %>" class="sponsor-img sponsor-size-gold">
+                        <img src="assets/img/sponsor/<%= p.imgname %>" alt="<%= p.sponsorname %>" class="sponsor-img sponsor-size-gold" <%= (p.zoom.nil?)?"":"style=\"width:"+p.zoom+"\"" %> >
                       </a>
                     </div>
                   <% end %>
@@ -82,7 +82,7 @@
                   <% prise.each do |p| %>
                     <div class="col-sm-4 col-sm-offset-4 sponsor-img-centerize">
                       <a class="linkwhite" href="<%= p.url %>">
-                        <img src="assets/img/sponsor/<%= p.imgname %>" alt="<%= p.sponsorname %>" class="sponsor-img sponsor-size-silver">
+                        <img src="assets/img/sponsor/<%= p.imgname %>" alt="<%= p.sponsorname %>" class="sponsor-img sponsor-size-silver" <%= (p.zoom.nil?)?"":"style=\"width:"+p.zoom+"\"" %> >
                       </a>
                     </div>
                   <% end %>
@@ -95,7 +95,7 @@
                   <% prise.each do |p| %>
                     <div class="col-sm-4 col-sm-offset-4 sponsor-img-centerize">
                       <a class="linkwhite" href="<%= p.url %>">
-                        <img src="assets/img/sponsor/<%= p.imgname %>" alt="<%= p.sponsorname %>" class="sponsor-img sponsor-size-mono">
+                        <img src="assets/img/sponsor/<%= p.imgname %>" alt="<%= p.sponsorname %>" class="sponsor-img sponsor-size-mono" <%= (p.zoom.nil?)?"":"style=\"width:"+p.zoom+"\"" %> >
                       </a>
                     </div>
                   <% end %>
@@ -112,7 +112,7 @@
               <% prise.each do |p| %>
               <div class="col-sm-4 col-sm-offset-4 sponsor-img-centerize">
                 <a class="linkwhite" href="<%= p.url %>">
-                  <img src="assets/img/sponsor/<%= p.imgname %>" alt="<%= p.sponsorname %>" class="sponsor-img sponsor-size-backsupport">
+                  <img src="assets/img/sponsor/<%= p.imgname %>" alt="<%= p.sponsorname %>" class="sponsor-img sponsor-size-backsupport" <%= (p.zoom.nil?)?"":"style=\"width:"+p.zoom+"\"" %> >
                 </a>
               </div>
               <% end %>
