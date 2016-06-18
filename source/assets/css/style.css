@@ -52,6 +52,17 @@ a.navbar-brand:hover{
 .overcaroucel img{
   width: 50%;
 }
+.highlight_news {
+  text-align: center;
+  background: #b1144b;
+}
+.highlight_news a{
+  font-weight: bold;
+  color:#ffffff;
+  text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  font-size: 1.5em;
+}
+
 /* footer */
 .footerback{
   position: relative;
@@ -232,7 +243,7 @@ a.navbar-brand:hover{
   width: 60%;
 }
 .sponsor-size-backsupport{
-  width: 60%;
+  width: 80%;
 }
 .topmap{
   margin-top: 40px;
