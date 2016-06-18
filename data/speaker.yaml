@@ -3,7 +3,7 @@ description: "今年の登壇者一覧です。講演者から情報を頂き次
 
 speakers:
  - name: Songmu (ソンムー)
-   programid: A10
+   programid: S05
    imgthumb: Songmu.png
    sns:
      twitter: songmu
@@ -18,7 +18,7 @@ speakers:
    messagetitle: Mackerelの技術の全て。これまでの道のりと更なる発展に向けて
    messagebody: 2014年9月に正式リリースしたはてなのサーバ管理・監視サービスであるMackerelでは、サーバサイド言語にScalaが採用され、サブシステムやユーザがホストにインストールする監視agentやそのpluginにはGoが採用されています。ミドルウェアにもPostgreSQL、Redis、Graphite等、これまでのはてなには馴染みの薄かった技術を採用しています。これらの技術は決して面白がって採用したわけではありません。実際、Mackerelは順調に成長を続けており、これらの技術の採用は妥当であったと考えています。なぜMackerelはこれらの技術を採用したのか、結果としてどのような苦労がありそれを乗り越えたのか、そして現在の課題について正直にお話します。また、Mackerelの急激な成長に伴い次のアーキテクチャを考えるフェーズにも入りつつあります。さらには、ユーザ様からの要望により、よりインテリジェントな監視も求められてきています。そのような中で、次の技術選定をどう考えているかについてもお話できればと思います。
  - name: 齊藤秀喜
-   programid: A20
+   programid: A12
    imgthumb: saito_hideki.png
    sns:
      twitter: saito_hideki
@@ -32,7 +32,7 @@ speakers:
    messagetitle: OpenStack Osloを使おう - メインロジックの開発に集中するためのライブラリ活用
    messagebody: DevOpsが定着した現在、われわれインフラエンジニアも、コードを書くのが日常的な仕事の1つとなっています。しかしながら、ある機能を提供するコマンドを1つ作るにしても、本当に書きたいロジックだけでなく、設定ファイルやコマンドラインのパーサやログ出力、DBアクセスなどの付随する機能も開発しなければない現実があります。OpenStack Osloは、OpenStackの中で最も地味なプロジェクトですが、他の主要プロジェクトに対して、上記のような付随的機能をライブラリとして提供しています。NovaやNeutronなどの主要プロジェクトでも利用されているので実績も十分！本セッションでは、みなさんのプログラムの中から実際にOsloを利用する手法について紹介します。
  - name: 中島倫明
-   programid: A30
+   programid: A22
    imgthumb: tomoaki.nakajima.jpg
    sns:
      twitter: Irix_jp
@@ -53,7 +53,7 @@ speakers:
    messagetitle: 今エンジニアに最も必要なものは「戦略」である！孫子に学ぶ本質のつかみ方
    messagebody: IoTやFinTech、クラウド、機械学習など、次々と新しい要素が生まれ、めまぐるしく変化する情報産業の中でエンジニアはどのように生きていけば幸せになれるのでしょうか？小手先の技術や目の前の出来事に右往左往せずに、物事の本質をつかむための考え方について、古代中国の戦略家「孫子」の教えをベースとして「世界観」というキーワードを元にお話します。
  - name: 大山裕泰
-   programid: A40
+   programid: S03
    imgthumb: oyama-hiroyasu.png
    sns:
      twitter:
@@ -67,7 +67,7 @@ speakers:
    messagetitle: MOM (Message Oriented Middleware) に求めるモノ
    messagebody: ビッグデータや IoT に代表されるような分散システムにおいて、MOM のソフトウェアが重要な役割を果たしています。これによってシステムのモデルを単純化でき、またシステムをスケーラブルにできます。MOM の代表的なソフトウェアとして RabbitMQ, Kafka, Apollo などがあり、それぞれに特徴があります。本セッションでは、それぞれにどのような特徴があるかについて紹介し、どういった用途において何が適していそうかについて考察します。
  - name: 原田一樹
-   programid: A50
+   programid: A02
    imgthumb: harada_kazuki.png
    sns:
      twitter: harada_kazuki
@@ -80,7 +80,7 @@ speakers:
    messagetitle: 今話題のCognitive/AI系サービスを徹底分析！あなたに最適な選択を。
    messagebody: AI技術やIoTが熱を帯び、熱狂的になってきた昨今、Amazon、Google、Microsoft、IBM…各社のCognitive/AI系のサービスが利用できる状況になりました。このセッションでは、似たようなものもあれば独自のものもある状況における各社サービス・APIの得手不得手を徹底的に比較整理し、それぞれの利点を最大限に引き出せる活用手法をご紹介します。 本セッションは、所属会社の見解ではなく、私個人の見解としてお話しします。
  - name: 阿佐志保
-   programid: A60
+   programid: A21
    imgthumb: asa.shiho.png
    sns:
      twitter: _Dr_ASA
@@ -97,7 +97,7 @@ speakers:
    messagetitle: 主婦が技術書を書いてSIerに入社した話。私の732ページを超えていけ！
    messagebody: JTF2015～2016のあいだに、コンテナとクラウドの書籍を2冊執筆しました。私はエンジニアではなく、普通の主婦です。家事や育児の合間のすきま時間を生かして、子どもの学習塾の月謝に、、、と思って毎日数ページずつ書きました。そして、主婦だけどSIerに入社したよ！！という、わりとカオスな話をします。私と技術コミュニティとのかかわり、情報発信の重要性、家事/育児や介護などとのワークライフバランスのとりかた、リモート勤務のコツ、キャリアのAutoScalingなど、インフラエンジニアにとって幸せな働き方の一例を情報共有できればと思っています。
  - name: 矢野哲朗
-   programid: B10
+   programid: A01
    imgthumb: tetsrow.yanno.png
    sns:
      twitter:
@@ -110,7 +110,7 @@ speakers:
    messagetitle: 便利に使えるプライベートオンラインストレージ　ownCloudのあれこれと、一歩進んだチューニングを大公開！
    messagebody: ownCloudをご存知でしょうか？会社でDropBoxを使いたい、でも使わせてくれない…。ownCloudは、そんなあなたの悩みを解決する、プライベートなオンラインストレージです。このセッションでは、ownCloudの便利さや使って嬉しいポイント、進化の歴史、快適にownCloudを使うためのチューニングポイントに加え、昨今話題になりがちなセキュリティーをアップするためのTipsも公開します。
  - name: "@Clorets8lack"
-   programid: B20
+   programid: A05
    imgthumb: Clorets8lack.png
    sns:
      twitter: Clorets8lack
@@ -125,7 +125,7 @@ speakers:
    messagetitle: 情シス戦線異状アリ！？ 自作のパケットレコーダーで海外拠点のLANを自動監視してみた
    messagebody: 事業のグローバル化が叫ばれる昨今、海外に拠点を構える企業が増えています。しかし多くの場合、現地に専任のIT担当者を置くことはコストの観点から極めて難しいのが実情です。海外拠点を日本から遠隔サポートするケースでは、時差や言語の問題だけでなく、政府による通信規制や現地業者の品質、機材の違い等、日本とはあまりに異なる状況が地獄のように担当者を苦しめます。そんな中、精度よく迅速にトラブルを解決し、現地スタッフの信頼を得つつ、ガバナンスを確立するにはどうしたら良いでしょうか。本セッションではパケットキャプチャを用いて海外拠点のLANをリアルタイムに監視し、統計処理により異常検知する仕組みを開発･運用した体験談をお話します。遠隔地のインフラを高品質に保守するノウハウについて、実際に発生したインシデント事例をもとにご紹介したいと思います。
  - name: 坂部広大@koudaiii
-   programid: XXX
+   programid: S02
    imgthumb: koudaiii.png
    sns:
      twitter: koudaiii
@@ -139,7 +139,7 @@ speakers:
    messagetitle: Wantedly の文化を支えるインフラとビジネスの変化に強いインフラ
    messagebody: Wantedly では、 CI や デプロイツール等ある程度の部分は、昔から当たり前の領域で行っていましたが、エンジニアの人数が増えていった時、生産性が落ちていると感じておりました。生産性の向上を目指すために文化的な側面、チームの運用的な側面等、技術以外でも様々な取り組みを行ってきました。今回 http://dev.classmethod.jp/devops/dev-ops-wantedly/ 記事にある 「Code wins Arguments」を支えるインフラ について、具体的にどうインフラを変化させてきたかをお話出来ればと思います。
  - name: nilfigo (松本隆則)
-   programid: XXX
+   programid: A15
    imgthumb: nilfigo.png
    sns:
      twitter: DYOH2017
@@ -155,7 +155,7 @@ speakers:
    messagetitle: CIプロセスにセキュリティ診断を組み込もう！Eclipse CheとOWASP ZAPで実現する、セキュアなシステム開発のすすめ
    messagebody: セキュリティの話題が事欠かない現在、システムは開発段階からセキュリティを意識して高めておきたいもの。そこで、今春に発表されたクラウドIDE「Eclipse Che」と、高機能なWebアプリケーションのセキュリティ診断ツールであるOWASP ZAPを連携させることにより、システム開発中にセキュリティ診断を自動的に実施していく手法を探ります。
  - name: 船井覚
-   programid: XXX
+   programid: A14
    imgthumb: satoruf.png
    sns:
      twitter: satoruf
@@ -168,7 +168,7 @@ speakers:
    messagetitle: エンタープライズは Site Reliability Engineering (SRE) の夢を見るか？
    messagebody: Googleによって注目を浴びるようになった Site Reliability Engineering (SRE)について、エンタープライズITの観点から考察します。内容： 1.SREの定義 2.dev-opsとの違い 3.エンタープライズとの違い 4.今やるべき事と理由
  - name: saya
-   programid: XXX
+   programid: S07
    imgthumb: saya.png
    sns:
      twitter:
@@ -179,4 +179,82 @@ speakers:
    history:
     - 10年間、ヘルプデスク業務を経て、DMMに入社しました。DMM.comラボでは、PCI-DSSまわりのサーバの運用保守業務を行っていました。現在は、ツチノコ企画室でメンバーの支援やイベントの主催、協賛イベントの運営業務に奮闘しています。
    messagetitle: チーム仕事を円滑にする読書会のすすめ
-   messagebody: <Team Geek ―Googleのギークたちはいかにしてチームを作るのか>を題材にDMM.comラボで行った読書会について話します(*´▽｀*) 準備、当日の流れ、読書会のあと業務を行う上で、どのように意識が変わったかについてまとめます。 チームとして仕事をしていくヒントになれば！
+   messagebody: ［Team Geek ―Googleのギークたちはいかにしてチームを作るのか］を題材にDMM.comラボで行った読書会について話します(*´▽｀*) 準備、当日の流れ、読書会のあと業務を行う上で、どのように意識が変わったかについてまとめます。 チームとして仕事をしていくヒントになれば！
+ - name: 大屋誠
+   programid: S08
+   imgthumb: ooya.png
+   sns:
+     twitter:
+     facebook:
+     github:
+   detail:
+    - 株式会社IDCフロンティア
+   history:
+    - 2008年よりクラウドサービス開発をリードし、2013年よりR＆D室長。2015年より福岡に移住、IoTや中心とした技術開発やサービス企画を福岡で行ないつつ、Civic Tech 推進担当として地域課題解決の支援に従事する。Yahoo Japanの"myThings"のエヴァンジェリストとして、グループをこえて活躍。週末は趣味で田畑や養鶏を楽しみ汗をながす。社内でのリモートワーク推進、整備を進めている。
+   messagetitle: IDCフロンティアのR&Dが福岡でやっていること
+   messagebody: IDCフロンティアの技術的な次の一手を考えるR&D部隊。IoTをはじめとして最近の取り組みから、ワークスタイルの試行錯誤までにスポットをあてて紹介します
+ - name: データホテル
+   programid: S06
+   imgthumb: datahotel.png
+   sns:
+     twitter: datahotel
+     facebook: datahotel.jp
+     github:
+   detail:
+    - NHN テコラス株式会社
+   history:
+    - 現在、NHNテコラスの企画職として勤務。企業向けITサービス事業「データホテル」で長らくITエンジニアとして勤務し、2015年にサービス企画チームへ異動。経営層や社内部門からの各種要求・相談、外部企業からの協業相談に応じ、様々な役割で業務を遂行中。現在の業務における関心領域はGRC（ガバナンス・リスクマネジメント・コンプライアンスの略称）で、この領域の顧客課題とサービス化に興味を持っています。
+   messagetitle: ITインフラ・マネージド事業領域におけるデータサイエンスの取り組み～30代からはじめる本当は泥臭いデータサイエンスの話～
+   messagebody: 会社統合、社名変更、組織改革などをきっかけとして、当社ITインフラ・マネージド事業部門が取り組み出した、データサイエンス領域の活動についてご紹介します。IoT、人工知能などのキーワードに興味を持っておられる方にお届けするセッションです。
+ - name: 下雅意美紀
+   programid: A27
+   imgthumb: shimogai.png
+   sns:
+     twitter:
+     facebook: profile.php?id=100007641377040
+     github:
+   detail:
+    - TIS株式会社
+   history:
+    - TIS株式会社勤務、きれいどころPostgreSQL女子エンジニア
+   messagetitle: きれいどころPostgreSQL女子エンジニアの東海道歩き旅
+   messagebody: 東海道は慶長6年に江戸-大坂間の幹線として整備され、昔から現在まで日本の大動脈としての役割を果たし、江戸後期の歌川広重の「東海道五十三次」はあまりに有名である。東海道には、箱根、大井川等の難所があり、女性には中山道のほうが好まれたとも言われている。しかし、難所に立ち向かうのがきれいどころPostgreSQL女子エンジニアである。今回はエンジニアとしてのレベルアップのための東海道歩き旅の体験談とPostgreSQLのカスタマイズへの活用を取り上げ、後進へのノウハウを提供したい。
+ - name: 山崎泰宏
+   programid: A07
+   imgthumb: yamazakiys.png
+   sns:
+     twitter: sparklegate
+     facebook: yamazakiys
+     github:
+   detail:
+    - 株式会社あくしゅ
+   history:
+    - 寿司と鰻を食べていたら、何故かここに参加することになり、プログラムをまとめたり、Tシャツの絵を描いたり、Swiftの無茶振りセッションをやらされたり、Unityの発表もしましたけど、本当はJTFの金庫番を務めております。普段は株式会社あくしゅ(http://axsh.jp)の代表をやっています。経営とか苦手なので、誰か助けてください。
+   messagetitle: IoTデバイスEdisonクラスタでSDNをやって苦し^H^H楽しもう! OpenVNet航海日誌（仮）
+   messagebody: Edisonは、今話題のIoTにも使えるIntel CPUが乗った強力なワンボードコンピュータです。今回、そのEdisonで物理的なクラスタを組んでネットワークで接続、その上にオーバレイの仮想ネットワークを構築するまでの、長く辛く苦しい道のりのお話をいたします。OpenVNetがそもそも動かないと言うところから始まるよ！
+ - name: 倉持健史
+   programid: A06
+   imgthumb: kuramochi.png
+   sns:
+     twitter:
+     facebook:
+     github:
+   detail:
+    - TIS株式会社 OSS推進室
+   history:
+    - OSSを推進する傍ら10年先も使える技術をもてるようインフラ技術者育成にも従事。インフラ系全般＋若干のミドルウェアあたりまでを守備範囲に最近はOpenStack、Ansible、Docker、R/RStudioあたりを好んで多用。尊敬するエバンジェリストのみなさんをめざして日々精進。
+   messagetitle: LinuxとWindowsが手を結んだ！これからのインフラエンジニアは"Bash on Ubuntu on Windows"をこう使え！
+   messagebody: Windows 10 Insider Previewにおいて、「Bash on Ubuntu on Windows」が可能になっています。一言で言えば、Windows上でLinuxが利用できるようになっているということです。これが何を意味するか、人によってそれぞれかもしれませんが、私は技術者という観点でいくつか広がりを認識してます。開発 / 保守 / 検証 / サービス提供 / 事務処理(技術者も時としてストレスフリーにはならないもの)これらをたった一つのOSだけで利用できるようになるでしょう。時間が許す限り、そんな広がりの幾つかをデモを交えながらお伝えします。
+ - name: 菊本隆博
+   programid: A09
+   imgthumb: kikumoto.png
+   sns:
+     twitter: takakiku
+     facebook:
+     github:
+   detail:
+    - Hamee株式会社 IS戦略室サービスインフラチームリーダ
+   history:
+    - デスクトップアプリからキャリアをはじめ、Webショッピングサイトを実装し、より低レイヤー側をする人がいなかったのでそれに手を出しているうちに、そちらが本業となり現在に至る。2012年からHamee（株）に転職し、自社サービスのインフラの改善を行っている。足回りの堅牢さ柔軟さこそが長く使うシステムには重要とおもい、サーバサイドのフレームワーク含めてそれより下の部分と日々戦っている。
+   messagetitle: HashiCorp VaultでMySQLアカウント管理はもう怖くない
+   messagebody: http://kikumoto.hatenablog.com/entry/2015/09/07/122229 の内容を、Vaultの説明を詳しくしつつ、実戦投入してみて得られた知見などについて話します。PostgreSQLではVALID UNTILでパスワードに有効期限を設けることができますが、Vaultを使えば、MySQLでも有効期限付きアカウントを作れます。 またLDAPと連携することで、アカウント自体はLDAPで管理しつつ、権限周りの詳細はVaultに任せるなど、LDAP単体ではできなかったDBのアカウント・権限管理を柔軟にできるようになります。 表計算ソフト一覧からのパスワードコピペでログインする時代に終焉を告げましょう。
