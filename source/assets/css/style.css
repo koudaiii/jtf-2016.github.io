@@ -230,6 +230,9 @@ a.navbar-brand:hover{
 .sponsor-size-wood{
   width: 100%;
 }
+.sponsor-size-mithril{
+  width: 100%;
+}
 .sponsor-size-platinum{
   width: 90%;
 }
@@ -244,6 +247,9 @@ a.navbar-brand:hover{
 }
 .sponsor-size-backsupport{
   width: 80%;
+}
+.sponsor-size-cohost{
+  width: 100%;
 }
 .topmap{
   margin-top: 40px;
@@ -273,6 +279,12 @@ a.navbar-brand:hover{
 .wooddark{
   background: url('../img/wooddarkline.png') no-repeat center center;
 }
+.mithril{
+  background: url('../img/mithrilline.png') no-repeat center center;
+}
+.mithrildark{
+  background: url('../img/mithrildarkline.png') no-repeat center center;
+}
 .silver{
   background: url('../img/silverline.png') no-repeat center center;
 }
@@ -284,6 +296,9 @@ a.navbar-brand:hover{
 }
 .backsupport{
   background: url('../img/backsupportline.png') no-repeat center center;
+}
+.cohost{
+  background: url('../img/cohostline.png') no-repeat center center;
 }
 /* detail page style*/
 .headback{
