@@ -119,6 +119,22 @@
             </div>
             <% end %>
             <% end %>
+            <% unless data.index.prise.cohost.nil? %>
+<!--            <div class="col-md-8 col-md-offset-2  col-sm-12 col-xs-12 prise-title cohost">
+              <img src="assets/img/cohost.png" alt="">
+            </div>
+-->            <% data.index.prise.cohost.each_slice(1) do |prise| %>
+            <div class="col-md-12">
+              <% prise.each do |p| %>
+              <div class="col-sm-4 col-sm-offset-4 sponsor-img-centerize">
+                <a class="linkwhite" href="<%= p.url %>">
+                  <img src="assets/img/sponsor/<%= p.imgname %>" alt="<%= p.sponsorname %>" class="sponsor-img sponsor-size-cohost" <%= (p.zoom.nil?)?"":"style=\"width:"+p.zoom+"\"" %> >
+                </a>
+              </div>
+              <% end %>
+            </div>
+            <% end %>
+            <% end %>
           </div>
         </div>
       </div>

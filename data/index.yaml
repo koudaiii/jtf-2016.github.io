@@ -65,6 +65,16 @@ prise:
   - sponsorname: ウォンテッドリー株式会社
     imgname: wantedly.png
     url: http://site.wantedly.com/
+  - sponsorname: EMP
+    imgname: emp.png
+    url: http://aiit.ac.jp/
+    zoom: 50%
+#  - sponsorname: Creationline
+#    imgname: creationline.png
+#    url: http://www.creationline.com/
+  - sponsorname: Sakura Internet
+    imgname: sakura.png
+    url: https://www.sakura.ad.jp/corporate/
   - sponsorname: NHN テコラス株式会社
     imgname: nhn-techorus.png
     url: https://nhn-techorus.com/
@@ -87,21 +97,26 @@ prise:
     url: http://www.blueship.co.jp
     zoom: 40%
   mono:
-    - sponsorname: オイシックス株式会社
-      imgname: oisix.png
-      url: http://www.oisix.co.jp/
-      zoom: 50%
-    - sponsorname: ネスグローバル
-      imgname: nes-global.png
-      url: https://www.nes-global.com/
-      zoom: 35%
+  - sponsorname: オイシックス株式会社
+    imgname: oisix.png
+    url: http://www.oisix.co.jp/
+    zoom: 50%
+  - sponsorname: ネスグローバル
+    imgname: nes-global.png
+    url: https://www.nes-global.com/
+    zoom: 35%
   backsupport:
-    - sponsorname: OWASP Japan
-      imgname: owasp.jpg
-      url: https://www.owasp.org/index.php/Japan
-    - sponsorname: CUPA
-      imgname: cupa.svg
-      url: http://www.cloud.or.jp/
-    - sponsorname: 日本MSP協会
-      imgname: mspj.svg
-      url: http://mspj.jp/
+  - sponsorname: OWASP Japan
+    imgname: owasp.jpg
+    url: https://www.owasp.org/index.php/Japan
+  - sponsorname: 日本MSP協会
+    imgname: mspj.svg
+    url: http://mspj.jp/
+  cohost:
+  - sponsorname: AIIT
+    imgname: aiit.png
+    url: http://aiit.ac.jp/
+  - sponsorname: CUPA
+    imgname: cupa.svg
+    url: http://www.cloud.or.jp/
+
