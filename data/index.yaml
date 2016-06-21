@@ -84,6 +84,9 @@ prise:
   - sponsorname: 株式会社はてな
     imgname: hatena-logotype.svg
     url: http://hatenacorp.jp/
+  - sponsorname: Nifty
+    imgname: nifty.png
+    url: http://www.nifty.co.jp/
   - sponsorname: ニュータニックス　ジャパン　合同会社
     imgname: nutanix.png
     url: http://www.nutanix.jp
