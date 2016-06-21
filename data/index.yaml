@@ -43,7 +43,7 @@ keynote:
 
 prise:
   mithril:
-  - sponsorname: WorksApplications
+  - sponsorname: 株式会社ワークスアプリケーションズ
     imgname: wap.png
     url: http://www.worksap.co.jp/
   platinum:
@@ -65,13 +65,14 @@ prise:
   - sponsorname: ウォンテッドリー株式会社
     imgname: wantedly.png
     url: http://site.wantedly.com/
-  - sponsorname: EMP
+  - sponsorname: 株式会社EMP
     imgname: emp.png
     url: http://aiit.ac.jp/
     zoom: 50%
-#  - sponsorname: Creationline
-#    imgname: creationline.png
-#    url: http://www.creationline.com/
+  - sponsorname: クリエーションライン株式会社
+    imgname: creationline.png
+    url: http://www.creationline.com/
+    zoom: 60%
   - sponsorname: Sakura Internet
     imgname: sakura.png
     url: https://www.sakura.ad.jp/corporate/
@@ -116,10 +117,10 @@ prise:
     imgname: mspj.svg
     url: http://mspj.jp/
   cohost:
-  - sponsorname: AIIT
+  - sponsorname: 産業技術大学院大学
     imgname: aiit.png
     url: http://aiit.ac.jp/
-  - sponsorname: CUPA
+  - sponsorname: クラウド利用促進機構
     imgname: cupa.svg
     url: http://www.cloud.or.jp/
 
