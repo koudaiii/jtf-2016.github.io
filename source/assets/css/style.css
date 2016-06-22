@@ -254,7 +254,7 @@ a.navbar-brand:hover{
 .sponsor-size-cohost{
   width: 100%;
 }
-.sponsor-size-media{
+.sponsor-size-medias{
   width: 80%;
 }
 .topmap{
@@ -306,7 +306,7 @@ a.navbar-brand:hover{
 .cohost{
   background: url('../img/backsupportline.png') no-repeat center center;
 }
-.media{
+.medias{
   background: url('../img/backsupportline.png') no-repeat center center;
 }
 /* detail page style*/
