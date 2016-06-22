@@ -130,11 +130,23 @@ a.navbar-brand:hover{
   -o-background-size: cover;
   background-size: cover;
 }
+
 .carouselback-black{
   background: rgba(0,0,0,0.6);
 }
+
 .panel{
-  color:#000;
+  border: 1px solid #ffffff;
+  background:transparent;
+}
+.panel-body{
+  padding-top:0px;
+}
+.panel small{
+  color:#ffffff;
+}
+.panel a{
+  color:rgba(255,255,255,0.8);
 }
 
 /*section style*/
