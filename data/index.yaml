@@ -123,4 +123,11 @@ prise:
   - sponsorname: クラウド利用促進機構
     imgname: cupa.svg
     url: http://www.cloud.or.jp/
+  media:
+  - sponsorname: atmarkIT
+    imgname: atmarkit.png
+    url: http://www.atmarkit.co.jp/
+  - sponsorname: CodeZine
+    imgname: codezine.png
+    url: https://codezine.jp/
 
