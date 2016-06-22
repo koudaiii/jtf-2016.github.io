@@ -149,8 +149,10 @@ a.navbar-brand:hover{
   color:rgba(255,255,255,0.8);
 }
 
+.label-red{
+  background: #AF384D;
+}
 /*section style*/
-
 .section{
   width: 100%;
   border-top: 1px solid #ffffff;
