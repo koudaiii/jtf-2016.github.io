@@ -46,13 +46,17 @@ prise:
   - sponsorname: 株式会社ワークスアプリケーションズ
     imgname: wap.png
     url: http://www.worksap.co.jp/
+
   platinum:
   - sponsorname: TIS株式会社
     imgname: tis.png
     url: https://www.tis.co.jp/
+    zoom: 60%
   - sponsorname: 株式会社DMM.comラボ
     imgname: dmm-labo.png
     url: http://labo.dmm.com/
+    zoom: 80%
+
   gold:
   - sponsorname: 株式会社IDCフロンティア
     imgname: idcf.png
@@ -72,7 +76,7 @@ prise:
   - sponsorname: クリエーションライン株式会社
     imgname: creationline.png
     url: http://www.creationline.com/
-    zoom: 60%
+    zoom: 65%
   - sponsorname: Sakura Internet
     imgname: sakura.png
     url: https://www.sakura.ad.jp/corporate/
@@ -88,46 +92,58 @@ prise:
   - sponsorname: Nifty
     imgname: nifty.png
     url: http://www.nifty.co.jp/
+    zoom: 50%
   - sponsorname: ニュータニックス　ジャパン　合同会社
     imgname: nutanix.png
     url: http://www.nutanix.jp
+    zoom: 50%
+
   silver:
   - sponsorname: ティントリジャパン合同会社
     imgname: tintri.png
     url: http://tintri.co.jp
-    zoom: 50%
+    zoom: 35%
   - sponsorname: 株式会社Blueship
     imgname: blueship.png
     url: http://www.blueship.co.jp
-    zoom: 40%
+    zoom: 35%
+
   mono:
   - sponsorname: オイシックス株式会社
     imgname: oisix.png
     url: http://www.oisix.co.jp/
-    zoom: 50%
+    zoom: 35%
   - sponsorname: ネスグローバル
     imgname: nes-global.png
     url: https://www.nes-global.com/
-    zoom: 35%
+    zoom: 25%
+
   backsupport:
   - sponsorname: OWASP Japan
     imgname: owasp.jpg
     url: https://www.owasp.org/index.php/Japan
+    zoom: 35%
   - sponsorname: 日本MSP協会
     imgname: mspj.svg
     url: http://mspj.jp/
+    zoom: 50%
+
   cohost:
   - sponsorname: 産業技術大学院大学
     imgname: aiit.png
     url: http://aiit.ac.jp/
+    zoom: 55%
   - sponsorname: クラウド利用促進機構
     imgname: cupa.svg
     url: http://www.cloud.or.jp/
+    zoom: 55%
+
   media:
   - sponsorname: atmarkIT
     imgname: atmarkit.png
     url: http://www.atmarkit.co.jp/
+    zoom: 50%
   - sponsorname: CodeZine
     imgname: codezine.png
     url: https://codezine.jp/
-
+    zoom: 50%
